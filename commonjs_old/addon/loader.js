@@ -1,5 +1,6 @@
-import event from 'events';
-import Convert from '../convert.js';
+const event = require('events');
+
+const Convert = require("../convert");
 
 class AddonLoader extends event.EventEmitter {
     constructor(root) {
@@ -98,6 +99,6 @@ class AddonLoader extends event.EventEmitter {
             return false;
         };
     };
-}
+};
 
-export { AddonLoader };
+module.exports = { AddonLoader };

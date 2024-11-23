@@ -2,9 +2,11 @@
   "name": "kestrel.js",
   "version": "1.1.1",
   "description": "A steno engine library so you can easily impliment steno into your nodejs project.",
-  "main": "main.js",
+  "main": "lib/engine.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack --config node.config.js && npx webpack --config web.config.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,11 @@
   "author": "CrazyH2",
   "license": "CC-BY-NC-4.0",
   "dependencies": {
-    "events": "^3.3.0"
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "events": "^3.3.0",
+    "node-global-key-listener": "0.1.1",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
   }
 }

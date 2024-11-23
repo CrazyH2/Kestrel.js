@@ -1,4 +1,4 @@
-import Convert from '../convert.js';
+const Convert = require("../convert");
 
 class Chord {
     constructor(keys) {
@@ -66,4 +66,4 @@ class Chord {
     }
 }
 
-export default Chord;
+module.exports = Chord;

@@ -1,4 +1,4 @@
-import event from 'events';
+const event = require('events');
 
 class MacroLoader extends event.EventEmitter {
     constructor(convert, root) {
@@ -90,6 +90,6 @@ class MacroLoader extends event.EventEmitter {
             return false;
         };
     };
-}
+};
 
-export { MacroLoader };
+module.exports = { MacroLoader };

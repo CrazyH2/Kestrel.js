@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example Kestrel.js Web Implimentation</title>
+    </head>
+
+    <body>
+        <a id="content"></a>
+        <script type="module">
+            import Kestrel from "../dist/main.js";
+
+            const app = await Kestrel();
+
+            document.addEventListener("keydown", (ev) => {
+                app.input.fromQwerty(true, e.key);
+            });
+
+            document.addEventListener("keyup", (ev) => {
+                app.input.fromQwerty(false, e.key);
+            });
+
+            await app.output.onData((data) => {
+                console.log(data);
+                document.querySelector("#content").innerHTML = data;
+            });
+
+            await app.dictionaries.load("../assets/dict.json");
+        </script>
+    </body>
+</html>

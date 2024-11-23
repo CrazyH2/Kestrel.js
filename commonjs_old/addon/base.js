@@ -23,7 +23,7 @@ class AddonBase {
     async onChord(chord, next) {
         return next();
     };
-}
+};
 
 AddonBase.isAddon = true;
-export { AddonBase };
+module.exports = { AddonBase };

@@ -6,4 +6,4 @@ const MacroBase = {
     }
 }
 
-export { MacroBase };
+module.exports = { MacroBase };

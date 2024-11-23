@@ -1,9 +1,11 @@
-import event from 'events';
-import Chord from '../engine/chord.js';
-import Word from '../engine/word.js';
+const event = require('events');
+
+const { MacroLoader } = require('../macro/loader');
+const Chord = require("../engine/chord");
+const Word = require("../engine/word");
 
 class DictLoader extends event.EventEmitter {
-    constructor(output, convert, root, MacroLoader) {
+    constructor(output, convert, root) {
         super()
 
         this.isdict = true;
@@ -248,6 +250,6 @@ class DictLoader extends event.EventEmitter {
             return false;
         };
     };
-}
+};
 
-export { DictLoader };
+module.exports = { DictLoader };

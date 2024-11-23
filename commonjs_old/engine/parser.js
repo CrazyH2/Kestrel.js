@@ -1,4 +1,4 @@
-import Convert from '../convert.js';
+const Convert = require("../convert");
 
 class Parser {
     constructor(root) {
@@ -56,6 +56,6 @@ class Parser {
         
         return false;
     };
-}
+};
 
-export { Parser };
+module.exports = { Parser };

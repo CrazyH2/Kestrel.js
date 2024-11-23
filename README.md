@@ -15,8 +15,8 @@
 </div>
 
 <!--<h3 align="center">Kestrel.js</h3>-->
-<h4 align="center">A stenography library that anyone can use and contribute to! Took 4 days to complete first version. <br>Made By <a href="https://github.com/crazyh2/">CrazyH2</a></h4>
-<h4 align="center">TAKE A LOOK AT PLOVER AND PLOVERPAD AS THIS WOULDN'T BE POSSIBLE WITHOUT THEM!<br>THE IMPLIMENTATION OF RTF/CTE ON PLOVERPAD IS USED FOR KESTRAL.JS<br><a href="http://openstenoproject.org/plover/">Plover</a>  |  <a href="https://www.openstenoproject.org/ploverpad/ploverpad.html">Ploverpad</a></h4>
+<h4 align="center">A stenography library that anyone can use and contribute to! Its only 42KB as of writing and took 4 days to complete first version. <br>Made By <a href="https://github.com/crazyh2/">CrazyH2</a></h4>
+<h4 align="center">Take a look at plover as this wouldn't be possible without them!<br><a href="http://openstenoproject.org/plover/">Plover</a>  |  <a href="https://www.openstenoproject.org/ploverpad/ploverpad.html">Ploverpad</a></h4>
 
 <h2 align="left">Installation</h2>
 
@@ -27,11 +27,18 @@ npm install
 ```
 - Reference in your code and Kestrel.js will do all the steno engine stuff for you.
 
-<h2 align="left">Production Compiling</h2>
+<h2 align="left">Production Bundling</h2>
+<h3>Just run the code below after installation:</h3>
 
-`THIS HAS NOT YET BEEN ADDED!`
+```sh
+npm run build
+```
+
+<b>The code should appear in <code>/dist</code> when bundled!</b>
 
 <h2 align="left">Usage</h2>
+
+<h3>NODE:</h3>
 
 ```js
 const { GlobalKeyboardListener } = require("node-global-key-listener");
@@ -53,6 +60,31 @@ const Dictionary = require("../assets/dict.json");
 
     await app.dictionaries.load(Dictionary);
 })();
+```
+
+<h3>WEB:</h3>
+
+```js
+<script type="module">
+  import Kestrel from "../dist/main.js";
+
+  const app = await Kestrel();
+
+  document.addEventListener("keydown", (ev) => {
+    app.input.fromQwerty(true, e.name);
+  });
+
+  document.addEventListener("keyup", (ev) => {
+    app.input.fromQwerty(false, e.name);
+  });
+
+  await app.output.onData((data) => {
+    console.log(data);
+    document.querySelector("#content").innerHTML = data;
+  });
+
+  await app.dictionaries.load("../assets/dict.json");
+</script>
 ```
 
 <br>
@@ -104,14 +136,11 @@ Just ask if the code confuses you!
 Example:
 ```js
 const MacroExample = {
-    "{CAPS-LOCK:ON}": (output) => {
+  name: "base",
 
-        output.sendModify([
-          { action: 'delete', amount: 5 },
-          { action: 'add', text: "hello" }
-        ]);
-
-    }
+  "CAPS-LOCK:ON": () => {
+    return "Hello, world!"
+  }
 }
 
 module.exports = { MacroExample };
@@ -124,6 +153,7 @@ Distributed under a Custom License. See `LICENSE` for more information.
 
 <h2 align="left">Credits</h2>
 <b>- Huge thanks to Openstenoproject an the steno community for allowing this project to exist.<br></b>
+<b>- Ploverpad was a huge help in parsing CTE/RTF for steno!</b>
 <b>- Main Dev: CrazyH2</b>
 
 <div align="center">

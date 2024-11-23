@@ -1,20 +1,19 @@
 // Other Libs
-import event from 'events';
+const event = require('events');
 
 // Lib Files
-import { AddonLoader } from './addon/loader.js';
-
-import { Parser } from './engine/parser.js';
-import { Input } from './input/input.js';
-import { Output } from './output/output.js';
-import Convert from './convert.js';
+const { AddonLoader } = require("./addon/loader");
+const { Parser } = require("./engine/parser");
+const { Input } = require("./input/input");
+const { Output } = require("./output/output");
+const Convert = require("./convert");
 
 // JSON Files
-import Config from './config.json' assert { type: 'json' };
+const Config = require("./config.json");
 
 // Built-in Addons
-import { DictLoader } from './dictionary/loader.js';
-import { MacroLoader } from './macro/loader.js';
+const { DictLoader } = require("./dictionary/loader");
+const { MacroLoader } = require("./macro/loader");
 
 class Engine extends event.EventEmitter {
     constructor() {
@@ -67,7 +66,7 @@ class Engine extends event.EventEmitter {
         this.config.paused = false;
         this.emit("resume");
     };
-}
+};
 
 // Fix the async issues
 var Kestrel = async () => {
@@ -76,4 +75,4 @@ var Kestrel = async () => {
     return inst;
 };
 Kestrel.Convert = Convert;
-export default Kestrel;
+module.exports = Kestrel;

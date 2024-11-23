@@ -1,5 +1,6 @@
-import event from 'events';
-import Convert from '../convert.js';
+const event = require('events');
+
+const Convert = require("../convert");
 
 class Input extends event.EventEmitter {
     constructor(root) {
@@ -53,6 +54,6 @@ class Input extends event.EventEmitter {
         var converted = Convert.binaryToSteno[key];
         return this.fromSteno(down, converted);
     };
-}
+};
 
-export { Input };
+module.exports = { Input };

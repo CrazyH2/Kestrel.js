@@ -1,4 +1,4 @@
-import event from 'events';
+const event = require('events');
 
 class Output extends event.EventEmitter {
     constructor(root) {
@@ -63,6 +63,6 @@ class Output extends event.EventEmitter {
     onModify(callback) {
         this._modifyListeners.push(callback);
     };
-}
+};
 
-export { Output };
+module.exports = { Output };
