@@ -19,18 +19,21 @@
 <h4 align="center">TAKE A LOOK AT PLOVER AND PLOVERPAD AS THIS WOULDN'T BE POSSIBLE WITHOUT THEM!<br>THE IMPLIMENTATION OF RTF/CTE ON PLOVERPAD IS USED FOR KESTRAL.JS<br><a href="http://openstenoproject.org/plover/">Plover</a>  |  <a href="https://www.openstenoproject.org/ploverpad/ploverpad.html">Ploverpad</a></h4>
 
 <h2 align="left">Installation</h2>
+
 - Download src code from the repo or go to Releases tab for all the versions.
 - Install packages and dependencies.
-sh```
+```sh
 npm install
 ```
 - Reference in your code and Kestrel.js will do all the steno engine stuff for you.
 
 <h2 align="left">Production Compiling</h2>
+
 `THIS HAS NOT YET BEEN ADDED!`
 
 <h2 align="left">Usage</h2>
-js```
+
+```js
 const { GlobalKeyboardListener } = require("node-global-key-listener");
 
 const Kestrel = require("../lib/engine");
@@ -64,7 +67,7 @@ We support most dictionaries that will work with <a href="http://openstenoprojec
 Ask for help or look at the source code when your stuck!
 
 Example:
-js```
+```js
 class AddonExample {
     constructor(convert) {
         this.isAddon = true;
@@ -99,7 +102,7 @@ module.exports = { AddonExample };
 Just ask if the code confuses you!
 
 Example:
-js```
+```js
 const MacroExample = {
     "{CAPS-LOCK:ON}": (output) => {
 
