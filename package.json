@@ -1,0 +1,23 @@
+{
+  "name": "kestrel.js",
+  "version": "1.1.1",
+  "description": "A steno engine library so you can easily impliment steno into your nodejs project.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crazyh2"
+  },
+  "keywords": [
+    "steno",
+    "stenography",
+    "engine"
+  ],
+  "author": "CrazyH2",
+  "license": "CC-BY-NC-4.0",
+  "dependencies": {
+    "events": "^3.3.0"
+  }
+}
