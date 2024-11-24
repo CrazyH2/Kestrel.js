@@ -64,7 +64,7 @@ const Dictionary = require("../assets/dict.json");
 
 <h3>WEB:</h3>
 
-```js
+```html
 <script type="module">
   import { Kestrel } from "../dist/kestrel.js";
 
