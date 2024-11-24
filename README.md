@@ -15,7 +15,7 @@
 </div>
 
 <!--<h3 align="center">Kestrel.js</h3>-->
-<h4 align="center">A stenography library that anyone can use and contribute to! Its only 42KB as of writing and took 4 days to complete first version. <br>Made By <a href="https://github.com/crazyh2/">CrazyH2</a></h4>
+<h4 align="center">A stenography library that anyone can use and contribute to! It's only 7KB as of writing and took 4 days to complete first version. <br>Made By <a href="https://github.com/crazyh2/">CrazyH2</a></h4>
 <h4 align="center">Take a look at plover as this wouldn't be possible without them!<br><a href="http://openstenoproject.org/plover/">Plover</a>  |  <a href="https://www.openstenoproject.org/ploverpad/ploverpad.html">Ploverpad</a></h4>
 
 <h2 align="left">Installation</h2>
@@ -66,16 +66,16 @@ const Dictionary = require("../assets/dict.json");
 
 ```js
 <script type="module">
-  import Kestrel from "../dist/main.js";
+  import { Kestrel } from "../dist/kestrel.js";
 
   const app = await Kestrel();
 
   document.addEventListener("keydown", (ev) => {
-    app.input.fromQwerty(true, e.name);
+    app.input.fromQwerty(true, ev.name);
   });
 
   document.addEventListener("keyup", (ev) => {
-    app.input.fromQwerty(false, e.name);
+    app.input.fromQwerty(false, ev.name);
   });
 
   await app.output.onData((data) => {
@@ -83,7 +83,9 @@ const Dictionary = require("../assets/dict.json");
     document.querySelector("#content").innerHTML = data;
   });
 
-  await app.dictionaries.load("../assets/dict.json");
+  var dict = await (await fetch("../assets/dict.json")).json();
+
+  await app.dictionaries.load(dict);
 </script>
 ```
 

@@ -7,16 +7,16 @@
     <body>
         <a id="content"></a>
         <script type="module">
-            import Kestrel from "../dist/main.js";
+            import { Kestrel } from "../dist/kestrel.js";
 
             const app = await Kestrel();
 
             document.addEventListener("keydown", (ev) => {
-                app.input.fromQwerty(true, e.key);
+                app.input.fromQwerty(true, ev.key);
             });
 
             document.addEventListener("keyup", (ev) => {
-                app.input.fromQwerty(false, e.key);
+                app.input.fromQwerty(false, ev.key);
             });
 
             await app.output.onData((data) => {
@@ -24,7 +24,9 @@
                 document.querySelector("#content").innerHTML = data;
             });
 
-            await app.dictionaries.load("../assets/dict.json");
+            var dict = await (await fetch("../assets/dict.json")).json();
+
+            await app.dictionaries.load(dict);
         </script>
     </body>
 </html>

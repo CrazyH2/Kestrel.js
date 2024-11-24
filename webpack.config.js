@@ -1,12 +1,13 @@
-const webpack = require("webpack");
-
-const path = require('path');
-
-module.exports = {
+export default {
     entry: './lib/engine.js', // Replace with your entry point
     output: {
-        path: path.resolve(__dirname, 'dist'),
-        filename: 'kestrel-web.js',
+        filename: 'kestrel.js',
+        library: {
+            type: "module"
+        },
+    },
+    experiments: {
+        outputModule: true,
     },
     optimization: {
         splitChunks: {
