@@ -1,7 +1,7 @@
 
 import { GlobalKeyboardListener } from "node-global-key-listener";
 
-import Kestrel from "../dist/kestrel.js";
+import { Kestrel } from "../dist/kestrel.js";
 import Dictionary from "../assets/dict.json" assert { type: 'json' };;
 
 const app = await Kestrel();

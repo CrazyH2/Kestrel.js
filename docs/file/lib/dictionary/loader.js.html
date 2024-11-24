@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">lib/dictionary/loader.js | kestrel.js</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="A steno engine library so you can easily impliment steno into your nodejs project."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="kestrel.js"><meta property="twitter:description" content="A steno engine library so you can easily impliment steno into your nodejs project."></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/crazyh2"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/_docs_Kestrel.js~Kestrel.html">Kestrel</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#addon">addon</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/addon/base.js~AddonBase.html">AddonBase</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/addon/loader.js~AddonLoader.html">AddonLoader</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#dictionary">dictionary</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/dictionary/loader.js~DictLoader.html">DictLoader</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#engine">engine</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/engine/chord.js~Chord.html">Chord</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/engine/parser.js~Parser.html">Parser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/engine/word.js~Word.html">Word</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#input">input</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/input/input.js~Input.html">Input</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#macro">macro</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/macro/loader.js~MacroLoader.html">MacroLoader</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MacroBase">MacroBase</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#output">output</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/output/output.js~Output.html">Output</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">lib/dictionary/loader.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import event from &apos;../events/events.js&apos;;
+import Chord from &apos;../engine/chord.js&apos;;
+import Word from &apos;../engine/word.js&apos;;
+
+class DictLoader extends event.EventEmitter {
+    constructor(output, convert, root, MacroLoader) {
+        super()
+
+        this.isdict = true;
+        this.convert = convert;
+        this.output = output;
+
+        // Private
+        this._root = root;
+        this._words = [];
+        this._dictionary = {};
+
+        // Public
+        this.dicts = [];
+        this.macros = MacroLoader;
+
+        // Aliases
+        this.reload = this.load;
+        this.remove = this.unload;
+        this.add = this.load;
+    };
+
+    onLoad() {
+        //console.log(&quot;Loading Dictionaries&quot;);
+    };
+
+    onUnload() {
+        //console.log(&quot;Unloading Dictionaries&quot;);
+    };
+
+    _generateDictionary(dicts = this.dicts) {
+        const mergedDict = {};
+
+        for (let obj of dicts) {
+            for (let key in obj) {
+                if (obj.hasOwnProperty(key)) {
+                    mergedDict[key] = obj[key];
+                };
+            };
+        };
+
+        return mergedDict;
+    };
+
+    _demetafy(translationString) {
+        // TAKEN FROM PLOVERPAD
+        // FULL CREDITS
+
+        // Sentence stops
+        translationString = translationString.replace(/\s*{(\.|!|\?)}\s*(\w?)/g, function (matchString, punctuationMark, nextLetter) { return punctuationMark + &apos; &apos; + nextLetter.toUpperCase(); });
+
+        // Sentence breaks
+        translationString = translationString.replace(/\s*{(,|:|;)}\s*/g, function (matchString, punctuationMark) { return punctuationMark + &apos; &apos;; });
+
+        // Simple suffixes (pure javascript translation from the Python code base)
+        translationString = translationString.replace(/(\w*)\s*{(\^ed|\^ing|\^er|\^s)}/g, simpleSuffix);
+        function simpleSuffix() {
+            var matchString = arguments[0];
+            var prevWord = arguments[1];
+            var suffix = arguments[2];
+            var returnString = &apos;&apos;;
+
+            var CONSONANTS = { &apos;b&apos;: true, &apos;c&apos;: true, &apos;d&apos;: true, &apos;f&apos;: true, &apos;g&apos;: true, &apos;h&apos;: true, &apos;j&apos;: true, &apos;k&apos;: true, &apos;l&apos;: true, &apos;m&apos;: true, &apos;n&apos;: true, &apos;p&apos;: true, &apos;q&apos;: true, &apos;r&apos;: true, &apos;s&apos;: true, &apos;t&apos;: true, &apos;v&apos;: true, &apos;w&apos;: true, &apos;x&apos;: true, &apos;z&apos;: true, &apos;B&apos;: true, &apos;C&apos;: true, &apos;D&apos;: true, &apos;F&apos;: true, &apos;G&apos;: true, &apos;H&apos;: true, &apos;J&apos;: true, &apos;K&apos;: true, &apos;L&apos;: true, &apos;M&apos;: true, &apos;N&apos;: true, &apos;P&apos;: true, &apos;Q&apos;: true, &apos;R&apos;: true, &apos;S&apos;: true, &apos;T&apos;: true, &apos;V&apos;: true, &apos;W&apos;: true, &apos;X&apos;: true, &apos;Z&apos;: true };
+            var VOWELS = { &apos;a&apos;: true, &apos;e&apos;: true, &apos;i&apos;: true, &apos;o&apos;: true, &apos;u&apos;: true, &apos;A&apos;: true, &apos;E&apos;: true, &apos;I&apos;: true, &apos;O&apos;: true, &apos;U&apos;: true };
+            var W = { &apos;w&apos;: true, &apos;W&apos;: true };
+            var Y = { &apos;y&apos;: true, &apos;Y&apos;: true };
+            var PLURAL_SPECIAL = { &apos;s&apos;: true, &apos;x&apos;: true, &apos;z&apos;: true, &apos;S&apos;: true, &apos;X&apos;: true, &apos;Z&apos;: true };
+            var prepForSimpleSuffix = function (wordParam) {
+                var numChars = wordParam.length;
+                if (numChars &lt; 2) {
+                    return wordParam;
+                }
+                if (numChars &gt;= 3) {
+                    thirdToLast = wordParam.slice(-3, -2);
+                } else {
+                    thirdToLast = &apos;&apos;;
+                }
+                secondToLast = wordParam.slice(-2, -1);
+                last = wordParam.slice(-1);
+                if (secondToLast in VOWELS || secondToLast in CONSONANTS) {
+                    if (last in VOWELS) {
+                        if (thirdToLast &amp;&amp; (thirdToLast in VOWELS || thirdToLast in CONSONANTS)) {
+                            return wordParam.slice(0, -1);
+                        }
+                    } else if (last in CONSONANTS &amp;&amp; !(last in W) &amp;&amp; secondToLast in VOWELS &amp;&amp; thirdToLast &amp;&amp; !(thirdToLast in VOWELS)) {
+                        return wordParam + last;
+                    } else if (last in Y &amp;&amp; secondToLast in CONSONANTS) {
+                        return wordParam.slice(0, -1) + &apos;i&apos;;
+                    }
+                }
+                return wordParam;
+            }
+
+            if (suffix === &apos;^s&apos;) {
+                if (prevWord.length &lt; 2) {
+                    return prevWord + &apos;s&apos;;
+                }
+                var a = prevWord.slice(-2, -1);
+                var b = prevWord.slice(-1);
+
+                if (b in PLURAL_SPECIAL) {
+                    return prevWord + &apos;es&apos;;
+                } else if (b in Y &amp;&amp; a in CONSONANTS) {
+                    return prevWord.slice(0, -1) + &apos;ies&apos;;
+                }
+                return prevWord + &apos;s&apos;;
+            }
+            if (suffix === &apos;^ed&apos;) {
+                return prepForSimpleSuffix(prevWord) + &apos;ed&apos;;
+            }
+            if (suffix === &apos;^er&apos;) {
+                return prepForSimpleSuffix(prevWord) + &apos;er&apos;;
+            }
+            if (suffix === &apos;^ing&apos;) {
+                if (prevWord &amp;&amp; prevWord.slice(-1) in Y) {
+                    return prevWord + &apos;ing&apos;;
+                }
+                return prepForSimpleSuffix(prevWord) + &apos;ing&apos;;
+            }
+        }
+
+        // Capitalize
+        translationString = translationString.replace(/\s*{-\|}\s*(\w?)/g, function (matchString, nextLetter) { return nextLetter.toUpperCase(); });
+
+        // Glue flag
+        translationString = translationString.replace(/(\s*{&amp;[^}]+}\s*)+/g, glue);
+        function glue() {
+            var testString = &apos;&apos;;
+            for (i = 0; i &lt; arguments.length; i++) {
+                testString += arguments[i] + &apos;, &apos;;
+            }
+            var matchString = arguments[0];
+            matchString = matchString.replace(/\s*{&amp;([^}]+)}\s*/g, function (a, p1) { return p1; });
+            return &apos; &apos; + matchString + &apos; &apos;;
+        }
+
+        // Attach flag
+        translationString = translationString.replace(/\s*{\^([^}]+)\^}\s*/g, function (matchString, attachString) { return attachString; });
+        translationString = translationString.replace(/\s*{\^([^}]+)}(\s*)/g, function (matchString, attachString, whitespace) { return attachString + whitespace; });
+        translationString = translationString.replace(/(\s*){([^}]+)\^}\s*/g, function (matchString, whitespace, attachString) { return whitespace + attachString; });
+
+        // Key Combinations
+        translationString = translationString.replace(/\s*{#Return}\s*/g, &apos;\n&apos;);
+        translationString = translationString.replace(/\s*{#Tab}\s*/g, &apos;\t&apos;);
+
+        return translationString;
+    };
+
+    onChord(keys, next) {
+        // Limit
+        if (this._words.length &gt; this._root.config.undo_history) this._words = this._words.slice(this._words.length - this._root.config.undo_history);
+
+        var modifyArr = [];
+        const chord = new Chord(keys);
+
+        // Slightly rewritten ploverpad code. Huge credits to openstenoproject for making plover open source.
+        if (this._words.length &gt; 0) {
+            if (chord.toRTFCRE() !== &apos;*&apos;) { // NORMAL KEYS
+                const lastWord = this._words[this._words.length - 1];
+                const combinedString = lastWord.toString() + &apos;/&apos; + chord.toRTFCRE();
+                modifyArr.push({ action: &apos;delete&apos;, amount: lastWord.length + 1 });
+                if (this._dictionary[combinedString]) {
+                    lastWord.addStroke(chord);
+                    modifyArr.push({ action: &apos;add&apos;, text: this._demetafy(chord.toEnglish(this._dictionary, this.macros.checkMarco) + &apos; &apos;) });
+                } else {
+                    var temp = new Word([chord])
+                    this._words.push(temp);
+                    modifyArr.push({ action: &apos;add&apos;, text: this._demetafy(temp.toEnglish(this._dictionary, this.macros.checkMarco) + &apos; &apos;) });
+                };
+            } else if (chord.toRTFCRE() === &apos;*&apos;) { // SPECIAL KEY
+                if (this._words.length &lt; 1) return;
+
+                modifyArr.push({ action: &apos;delete&apos;, amount: this._words.length + 1 });
+                this._words[this._words.length - 1].removeStroke();
+                if (this._words[this._words.length - 1].toString() === &apos;&apos;) {
+                    this._words.pop();
+                };
+                if (this._words.length &lt; 2 &amp;&amp; this._words[this._words.length - 1]) modifyArr.push({ action: &apos;add&apos;, text: this._demetafy(this._words[this._words.length - 1].toEnglish(this._dictionary, this.macros.checkMarco) + &apos; &apos;) });
+            };
+        } else { // NEW STROKE
+            var temp = new Word([chord]);
+            this._words.push(temp);
+            modifyArr.push({ action: &apos;add&apos;, text: this._demetafy(temp.toEnglish(this._dictionary, this.macros.checkMarco) + &apos; &apos;) });
+        };
+
+        const fullSteno = this._words.reduce((acc, word) =&gt; acc + word.toEnglish(this._dictionary, this.macros.checkMarco) + &apos; &apos;, &apos;&apos;);
+        this.output._onData(this._demetafy(fullSteno));
+
+        // Handle modify  [ { action: &apos;delete&apos;, amount: 5 }, { action: &apos;add&apos;, text: &quot;hello&quot; } ]
+        this.output._onModify(modifyArr);
+
+        return next();
+    };
+
+    lookup(phrase) {
+
+    };
+
+    reloadAll() {
+        if (this.dicts.length &lt; 1) {
+            this.emit(&quot;reloadAllFailed&quot;);
+            this._root.emit(&quot;dictionariesReloadFailed&quot;);
+            return false;
+        };
+
+        this.dicts.forEach(dict =&gt; this.load(dict, false));
+        this._dictionary = this._generateDictionary();
+        this.emit(&quot;reloadAll&quot;, this.dicts);
+        this._root.emit(&quot;dictionariesReload&quot;);
+        return true;
+    };
+
+    load(dict, genDict = true) {
+        if (typeof dict !== &apos;object&apos;) return false;
+
+        this.dicts.push(dict);
+
+        if (genDict == true) this._dictionary = this._generateDictionary();
+
+        if (dict in this.dicts) {
+            this.emit(&quot;load&quot;, dict);
+            this._root.emit(&quot;dictionaryLoad&quot;, dict);
+
+            this.emit(&quot;reload&quot;, dict);
+            this._root.emit(&quot;dictionaryReload&quot;, dict);
+
+            return dict;
+        } else {
+            this.emit(&quot;loadFailed&quot;, dict);
+            this._root.emit(&quot;dictionaryLoadFailed&quot;, dict);
+
+            this.emit(&quot;reloadFailed&quot;, dict);
+            this._root.emit(&quot;dictionaryReloadFailed&quot;, dict);
+
+            return false;
+        };
+    };
+
+    unload(dict) {
+        if (dict in this.dicts) {
+            delete this.dicts[this.dicts.indexOf(dict)];
+            this._dictionary = this._generateDictionary();
+            return true;
+        } else {
+            return false;
+        };
+    };
+}
+
+export { DictLoader };</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

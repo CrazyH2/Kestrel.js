@@ -1,0 +1,255 @@
+{
+  "coverage": "0%",
+  "expectCount": 176,
+  "actualCount": 0,
+  "files": {
+    "lib/_docs_Kestrel.js": {
+      "expectCount": 17,
+      "actualCount": 0,
+      "undocumentLines": [
+        16,
+        17,
+        23,
+        25,
+        27,
+        28,
+        29,
+        30,
+        32,
+        33,
+        36,
+        37,
+        38,
+        41,
+        45,
+        55,
+        60
+      ]
+    },
+    "lib/addon/base.js": {
+      "expectCount": 9,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        11,
+        15,
+        19,
+        23
+      ]
+    },
+    "lib/addon/loader.js": {
+      "expectCount": 14,
+      "actualCount": 0,
+      "undocumentLines": [
+        4,
+        5,
+        9,
+        10,
+        13,
+        18,
+        19,
+        20,
+        23,
+        27,
+        31,
+        48,
+        61,
+        92
+      ]
+    },
+    "lib/dictionary/loader.js": {
+      "expectCount": 22,
+      "actualCount": 0,
+      "undocumentLines": [
+        5,
+        6,
+        9,
+        10,
+        11,
+        14,
+        15,
+        16,
+        19,
+        20,
+        23,
+        24,
+        25,
+        28,
+        32,
+        36,
+        50,
+        154,
+        200,
+        204,
+        218,
+        244
+      ]
+    },
+    "lib/engine/chord.js": {
+      "expectCount": 11,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        4,
+        5,
+        11,
+        15,
+        19,
+        23,
+        27,
+        34,
+        58,
+        62
+      ]
+    },
+    "lib/engine/parser.js": {
+      "expectCount": 9,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        16,
+        34,
+        48
+      ]
+    },
+    "lib/engine/word.js": {
+      "expectCount": 10,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        2,
+        3,
+        7,
+        16,
+        20,
+        24,
+        29,
+        34,
+        39
+      ]
+    },
+    "lib/events/events.js": {
+      "expectCount": 33,
+      "actualCount": 0,
+      "undocumentLines": [
+        24,
+        25,
+        45,
+        49,
+        53,
+        68,
+        70,
+        89,
+        102,
+        110,
+        116,
+        120,
+        164,
+        226,
+        233,
+        237,
+        247,
+        255,
+        262,
+        270,
+        324,
+        374,
+        391,
+        395,
+        399,
+        408,
+        424,
+        428,
+        435,
+        441,
+        449,
+        470,
+        476
+      ]
+    },
+    "lib/input/input.js": {
+      "expectCount": 15,
+      "actualCount": 0,
+      "undocumentLines": [
+        4,
+        5,
+        9,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        21,
+        22,
+        25,
+        36,
+        44,
+        51
+      ]
+    },
+    "lib/macro/base.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    },
+    "lib/macro/loader.js": {
+      "expectCount": 14,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        4,
+        8,
+        9,
+        10,
+        13,
+        16,
+        17,
+        18,
+        21,
+        29,
+        43,
+        69,
+        79
+      ]
+    },
+    "lib/output/output.js": {
+      "expectCount": 21,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        14,
+        15,
+        16,
+        19,
+        20,
+        21,
+        23,
+        24,
+        25,
+        28,
+        37,
+        46,
+        55,
+        59,
+        63
+      ]
+    }
+  }
+}

@@ -12,6 +12,9 @@
 <h4 align="center">A stenography library that anyone can use and contribute to! It's only 7KB as of writing and took 4 days to complete first version. <br>Made By <a href="https://github.com/crazyh2/">CrazyH2</a></h4>
 <h4 align="center">Take a look at plover as this wouldn't be possible without them!<br><a href="http://openstenoproject.org/plover/">Plover</a>  |  <a href="https://www.openstenoproject.org/ploverpad/ploverpad.html">Ploverpad</a></h4>
 
+<h2 align="left">Docs</h2>
+<a href="">Go to the auto generated docs.. Ask if you're confused as the docs are very basic!</a>
+
 <h2 align="left">Installation</h2>
 
 - Download src code from the repo or go to Releases tab for all the versions.
@@ -37,7 +40,7 @@ npm run build
 ```js
 const { GlobalKeyboardListener } = require("node-global-key-listener");
 
-const Kestrel = require("../lib/engine");
+const { Kestrel } = require("../lib/engine");
 const Dictionary = require("../assets/dict.json");
 
 (async () => {

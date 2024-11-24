@@ -1,0 +1,4540 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "lib/_docs_Kestrel.js",
+    "content": "// Other Libs\nimport event from './events/events.js';\n\n// Lib Files\nimport { AddonLoader } from './addon/loader.js';\n\nimport { Parser } from './engine/parser.js';\nimport { Input } from './input/input.js';\nimport { Output } from './output/output.js';\nimport Convert from './convert.js';\n\n// Built-in Addons\nimport { DictLoader } from './dictionary/loader.js';\nimport { MacroLoader } from './macro/loader.js';\n\nclass Kestrel extends event.EventEmitter {\n    constructor() {\n        super();\n\n        // Private\n\n        // Public\n        this.config = Config;\n\n        this.exited = false;\n\n        this.convert = Convert;\n        this.parser = new Parser(this)\n        this.input = new Input(this);\n        this.output = new Output(this);\n\n        this.addons = new AddonLoader(this);\n        this.dictionaries = null;\n\n        // Aliases\n        this.quit = this.exit;\n        this.holt = this.pause;\n        this.continue = this.resume;\n\n        // Init\n        this.macros = new MacroLoader(Convert, this);\n        this.dictionaries = this.addons.load(DictLoader, [this, this.macros]);\n    };\n\n    exit() {\n        this.emit(\"exit\");\n        this.exited = true;\n        \n        delete this.input;\n        delete this.output;\n        delete this.dictionaries;\n        delete this.addons;\n    };\n\n    pause() {\n        this.config.paused = true;\n        this.emit(\"pause\");\n    };\n\n    resume() {\n        this.config.paused = false;\n        this.emit(\"resume\");\n    };\n}\n\nexport { Kestrel };",
+    "static": true,
+    "longname": "/Users/haydengrattan/Desktop/Kestrel.js/lib/_docs_Kestrel.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "class",
+    "name": "Kestrel",
+    "memberof": "lib/_docs_Kestrel.js",
+    "static": true,
+    "longname": "lib/_docs_Kestrel.js~Kestrel",
+    "access": "public",
+    "export": true,
+    "importPath": "kestrel.js/lib/_docs_Kestrel.js",
+    "importStyle": "{Kestrel}",
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "lib/events/events.js~event.EventEmitter"
+    ]
+  },
+  {
+    "__docId__": 50,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "lib/_docs_Kestrel.js~Kestrel",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/_docs_Kestrel.js~Kestrel#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true
+  },
+  {
+    "__docId__": 51,
+    "kind": "member",
+    "name": "config",
+    "memberof": "lib/_docs_Kestrel.js~Kestrel",
+    "static": false,
+    "longname": "lib/_docs_Kestrel.js~Kestrel#config",
+    "access": "public",
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "member",
+    "name": "exited",
+    "memberof": "lib/_docs_Kestrel.js~Kestrel",
+    "static": false,
+    "longname": "lib/_docs_Kestrel.js~Kestrel#exited",
+    "access": "public",
+    "description": null,
+    "lineNumber": 25,
+    "undocument": true,
+    "type": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 53,
+    "kind": "member",
+    "name": "convert",
+    "memberof": "lib/_docs_Kestrel.js~Kestrel",
+    "static": false,
+    "longname": "lib/_docs_Kestrel.js~Kestrel#convert",
+    "access": "public",
+    "description": null,
+    "lineNumber": 27,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "member",
+    "name": "parser",
+    "memberof": "lib/_docs_Kestrel.js~Kestrel",
+    "static": false,
+    "longname": "lib/_docs_Kestrel.js~Kestrel#parser",
+    "access": "public",
+    "description": null,
+    "lineNumber": 28,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "member",
+    "name": "input",
+    "memberof": "lib/_docs_Kestrel.js~Kestrel",
+    "static": false,
+    "longname": "lib/_docs_Kestrel.js~Kestrel#input",
+    "access": "public",
+    "description": null,
+    "lineNumber": 29,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 56,
+    "kind": "member",
+    "name": "output",
+    "memberof": "lib/_docs_Kestrel.js~Kestrel",
+    "static": false,
+    "longname": "lib/_docs_Kestrel.js~Kestrel#output",
+    "access": "public",
+    "description": null,
+    "lineNumber": 30,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "member",
+    "name": "addons",
+    "memberof": "lib/_docs_Kestrel.js~Kestrel",
+    "static": false,
+    "longname": "lib/_docs_Kestrel.js~Kestrel#addons",
+    "access": "public",
+    "description": null,
+    "lineNumber": 32,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "member",
+    "name": "dictionaries",
+    "memberof": "lib/_docs_Kestrel.js~Kestrel",
+    "static": false,
+    "longname": "lib/_docs_Kestrel.js~Kestrel#dictionaries",
+    "access": "public",
+    "description": null,
+    "lineNumber": 33,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "member",
+    "name": "quit",
+    "memberof": "lib/_docs_Kestrel.js~Kestrel",
+    "static": false,
+    "longname": "lib/_docs_Kestrel.js~Kestrel#quit",
+    "access": "public",
+    "description": null,
+    "lineNumber": 36,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 60,
+    "kind": "member",
+    "name": "holt",
+    "memberof": "lib/_docs_Kestrel.js~Kestrel",
+    "static": false,
+    "longname": "lib/_docs_Kestrel.js~Kestrel#holt",
+    "access": "public",
+    "description": null,
+    "lineNumber": 37,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 61,
+    "kind": "member",
+    "name": "continue",
+    "memberof": "lib/_docs_Kestrel.js~Kestrel",
+    "static": false,
+    "longname": "lib/_docs_Kestrel.js~Kestrel#continue",
+    "access": "public",
+    "description": null,
+    "lineNumber": 38,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 62,
+    "kind": "member",
+    "name": "macros",
+    "memberof": "lib/_docs_Kestrel.js~Kestrel",
+    "static": false,
+    "longname": "lib/_docs_Kestrel.js~Kestrel#macros",
+    "access": "public",
+    "description": null,
+    "lineNumber": 41,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 64,
+    "kind": "method",
+    "name": "exit",
+    "memberof": "lib/_docs_Kestrel.js~Kestrel",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/_docs_Kestrel.js~Kestrel#exit",
+    "access": "public",
+    "description": null,
+    "lineNumber": 45,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 66,
+    "kind": "method",
+    "name": "pause",
+    "memberof": "lib/_docs_Kestrel.js~Kestrel",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/_docs_Kestrel.js~Kestrel#pause",
+    "access": "public",
+    "description": null,
+    "lineNumber": 55,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 67,
+    "kind": "method",
+    "name": "resume",
+    "memberof": "lib/_docs_Kestrel.js~Kestrel",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/_docs_Kestrel.js~Kestrel#resume",
+    "access": "public",
+    "description": null,
+    "lineNumber": 60,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 68,
+    "kind": "file",
+    "name": "lib/addon/base.js",
+    "content": "class AddonBase {\n    constructor(output, convert) {\n        this.output = output;\n        this.convert = convert;\n    };\n\n    onLoad() {\n\n    };\n\n    onUnload() {\n\n    };\n\n    onKeyDown(key) {\n\n    };\n\n    onKeyUp(key) {\n\n    };\n\n    async onChord(chord, next) {\n        return next();\n    };\n}\n\nAddonBase.isAddon = true;\nexport { AddonBase };",
+    "static": true,
+    "longname": "/Users/haydengrattan/Desktop/Kestrel.js/lib/addon/base.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 69,
+    "kind": "class",
+    "name": "AddonBase",
+    "memberof": "lib/addon/base.js",
+    "static": true,
+    "longname": "lib/addon/base.js~AddonBase",
+    "access": "public",
+    "export": true,
+    "importPath": "kestrel.js/lib/addon/base.js",
+    "importStyle": "{AddonBase}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "interface": false
+  },
+  {
+    "__docId__": 70,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "lib/addon/base.js~AddonBase",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/addon/base.js~AddonBase#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true
+  },
+  {
+    "__docId__": 71,
+    "kind": "member",
+    "name": "output",
+    "memberof": "lib/addon/base.js~AddonBase",
+    "static": false,
+    "longname": "lib/addon/base.js~AddonBase#output",
+    "access": "public",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 72,
+    "kind": "member",
+    "name": "convert",
+    "memberof": "lib/addon/base.js~AddonBase",
+    "static": false,
+    "longname": "lib/addon/base.js~AddonBase#convert",
+    "access": "public",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 73,
+    "kind": "method",
+    "name": "onLoad",
+    "memberof": "lib/addon/base.js~AddonBase",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/addon/base.js~AddonBase#onLoad",
+    "access": "public",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 74,
+    "kind": "method",
+    "name": "onUnload",
+    "memberof": "lib/addon/base.js~AddonBase",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/addon/base.js~AddonBase#onUnload",
+    "access": "public",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 75,
+    "kind": "method",
+    "name": "onKeyDown",
+    "memberof": "lib/addon/base.js~AddonBase",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/addon/base.js~AddonBase#onKeyDown",
+    "access": "public",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 76,
+    "kind": "method",
+    "name": "onKeyUp",
+    "memberof": "lib/addon/base.js~AddonBase",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/addon/base.js~AddonBase#onKeyUp",
+    "access": "public",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 77,
+    "kind": "method",
+    "name": "onChord",
+    "memberof": "lib/addon/base.js~AddonBase",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "lib/addon/base.js~AddonBase#onChord",
+    "access": "public",
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "params": [
+      {
+        "name": "chord",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "next",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 78,
+    "kind": "file",
+    "name": "lib/addon/loader.js",
+    "content": "import event from '../events/events.js';\nimport Convert from '../convert.js';\n\nclass AddonLoader extends event.EventEmitter {\n    constructor(root) {\n        super();\n\n        // Private\n        this._root = root;\n        this._addons = {};\n\n        // Public\n        this.addons = (() => {\n            return Object.values(this._addons);\n        })();\n\n        // Aliases\n        this.reload = this.load;\n        this.remove = this.unload;\n        this.add = this.load;\n    };\n\n    _onKeyDown(key) {\n        Object.values(this._addons).forEach(addon => { if (addon.instance.onKeyDown) addon.instance.onKeyDown(key) });\n    };\n\n    _onKeyUp(key) {\n        Object.values(this._addons).forEach(addon => { if (addon.instance.onKeyUp) addon.instance.onKeyUp(key) });\n    };\n\n    _onChord(chord) {\n        const chor = chord;\n        const addons = Object.values(this._addons);\n        const middlewareQueue = addons.slice(); // Copy the addons array\n        const output = this._root.output;\n\n        function next() {\n            if (middlewareQueue.length > 0) {\n                const currentMiddleware = middlewareQueue.shift();\n                currentMiddleware.instance.onChord(chor, next);\n                //currentMiddleware.instance.onChord.call(currentMiddleware.instance, [chor, output, next]);\n            };\n        };\n\n        next();\n    };\n\n    reloadAll() {\n        if (this._addons.length < 1) {\n            this.emit(\"reloadAllFailed\");\n            this._root.emit(\"addonsReloadFailed\");\n            return false;\n        };\n\n        Object.values(this._addons).forEach(addon => this.load(addon.class));\n        this.emit(\"reloadAll\", this._addons);\n        this._root.emit(\"addonsReload\");\n        return true;\n    };\n\n    load(addon, args) {\n        if (typeof addon !== 'class' && typeof addon !== 'function' && addon.isAddon != true) return false; // a function? somehow\n\n        var addonInstance = new addon(this._root.output, Convert, ...args);\n\n        this._addons[addon.name] = {\n            class: addon,\n            instance: addonInstance\n        };\n\n        if (addon.name in this._addons) {\n            this._addons[addon.name].instance.onLoad();\n\n            this.emit(\"load\", this._addons[addon.name]);\n            this._root.emit(\"addonLoad\", this._addons[addon.name]);\n\n            this.emit(\"reload\", this._addons[addon.name]);\n            this._root.emit(\"addonReload\", this._addons[addon.name]);\n\n            return this._addons[addon.name].instance;\n        } else {\n            this.emit(\"loadFailed\", addon);\n            this._root.emit(\"addonLoadFailed\", addon);\n\n            this.emit(\"reloadFailed\", addon);\n            this._root.emit(\"addonReloadFailed\", addon);\n\n            return false;\n        };\n    };\n\n    unload(addon) {\n        if (addon.name in this._addons) {\n            this._addons[addon.name].instance.onUnload();\n            delete this._addons[addon.name];\n            return true;\n        } else {\n            return false;\n        };\n    };\n}\n\nexport { AddonLoader };",
+    "static": true,
+    "longname": "/Users/haydengrattan/Desktop/Kestrel.js/lib/addon/loader.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 79,
+    "kind": "class",
+    "name": "AddonLoader",
+    "memberof": "lib/addon/loader.js",
+    "static": true,
+    "longname": "lib/addon/loader.js~AddonLoader",
+    "access": "public",
+    "export": true,
+    "importPath": "kestrel.js/lib/addon/loader.js",
+    "importStyle": "{AddonLoader}",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "lib/events/events.js~event.EventEmitter"
+    ]
+  },
+  {
+    "__docId__": 80,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "lib/addon/loader.js~AddonLoader",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/addon/loader.js~AddonLoader#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true
+  },
+  {
+    "__docId__": 81,
+    "kind": "member",
+    "name": "_root",
+    "memberof": "lib/addon/loader.js~AddonLoader",
+    "static": false,
+    "longname": "lib/addon/loader.js~AddonLoader#_root",
+    "access": "private",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 82,
+    "kind": "member",
+    "name": "_addons",
+    "memberof": "lib/addon/loader.js~AddonLoader",
+    "static": false,
+    "longname": "lib/addon/loader.js~AddonLoader#_addons",
+    "access": "private",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{}"
+      ]
+    }
+  },
+  {
+    "__docId__": 83,
+    "kind": "member",
+    "name": "addons",
+    "memberof": "lib/addon/loader.js~AddonLoader",
+    "static": false,
+    "longname": "lib/addon/loader.js~AddonLoader#addons",
+    "access": "public",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 84,
+    "kind": "member",
+    "name": "reload",
+    "memberof": "lib/addon/loader.js~AddonLoader",
+    "static": false,
+    "longname": "lib/addon/loader.js~AddonLoader#reload",
+    "access": "public",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 85,
+    "kind": "member",
+    "name": "remove",
+    "memberof": "lib/addon/loader.js~AddonLoader",
+    "static": false,
+    "longname": "lib/addon/loader.js~AddonLoader#remove",
+    "access": "public",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 86,
+    "kind": "member",
+    "name": "add",
+    "memberof": "lib/addon/loader.js~AddonLoader",
+    "static": false,
+    "longname": "lib/addon/loader.js~AddonLoader#add",
+    "access": "public",
+    "description": null,
+    "lineNumber": 20,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 87,
+    "kind": "method",
+    "name": "_onKeyDown",
+    "memberof": "lib/addon/loader.js~AddonLoader",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/addon/loader.js~AddonLoader#_onKeyDown",
+    "access": "private",
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 88,
+    "kind": "method",
+    "name": "_onKeyUp",
+    "memberof": "lib/addon/loader.js~AddonLoader",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/addon/loader.js~AddonLoader#_onKeyUp",
+    "access": "private",
+    "description": null,
+    "lineNumber": 27,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 89,
+    "kind": "method",
+    "name": "_onChord",
+    "memberof": "lib/addon/loader.js~AddonLoader",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/addon/loader.js~AddonLoader#_onChord",
+    "access": "private",
+    "description": null,
+    "lineNumber": 31,
+    "undocument": true,
+    "params": [
+      {
+        "name": "chord",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 90,
+    "kind": "method",
+    "name": "reloadAll",
+    "memberof": "lib/addon/loader.js~AddonLoader",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/addon/loader.js~AddonLoader#reloadAll",
+    "access": "public",
+    "description": null,
+    "lineNumber": 48,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 91,
+    "kind": "method",
+    "name": "load",
+    "memberof": "lib/addon/loader.js~AddonLoader",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/addon/loader.js~AddonLoader#load",
+    "access": "public",
+    "description": null,
+    "lineNumber": 61,
+    "undocument": true,
+    "params": [
+      {
+        "name": "addon",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "args",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 92,
+    "kind": "method",
+    "name": "unload",
+    "memberof": "lib/addon/loader.js~AddonLoader",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/addon/loader.js~AddonLoader#unload",
+    "access": "public",
+    "description": null,
+    "lineNumber": 92,
+    "undocument": true,
+    "params": [
+      {
+        "name": "addon",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 93,
+    "kind": "file",
+    "name": "lib/dictionary/loader.js",
+    "content": "import event from '../events/events.js';\nimport Chord from '../engine/chord.js';\nimport Word from '../engine/word.js';\n\nclass DictLoader extends event.EventEmitter {\n    constructor(output, convert, root, MacroLoader) {\n        super()\n\n        this.isdict = true;\n        this.convert = convert;\n        this.output = output;\n\n        // Private\n        this._root = root;\n        this._words = [];\n        this._dictionary = {};\n\n        // Public\n        this.dicts = [];\n        this.macros = MacroLoader;\n\n        // Aliases\n        this.reload = this.load;\n        this.remove = this.unload;\n        this.add = this.load;\n    };\n\n    onLoad() {\n        //console.log(\"Loading Dictionaries\");\n    };\n\n    onUnload() {\n        //console.log(\"Unloading Dictionaries\");\n    };\n\n    _generateDictionary(dicts = this.dicts) {\n        const mergedDict = {};\n\n        for (let obj of dicts) {\n            for (let key in obj) {\n                if (obj.hasOwnProperty(key)) {\n                    mergedDict[key] = obj[key];\n                };\n            };\n        };\n\n        return mergedDict;\n    };\n\n    _demetafy(translationString) {\n        // TAKEN FROM PLOVERPAD\n        // FULL CREDITS\n\n        // Sentence stops\n        translationString = translationString.replace(/\\s*{(\\.|!|\\?)}\\s*(\\w?)/g, function (matchString, punctuationMark, nextLetter) { return punctuationMark + ' ' + nextLetter.toUpperCase(); });\n\n        // Sentence breaks\n        translationString = translationString.replace(/\\s*{(,|:|;)}\\s*/g, function (matchString, punctuationMark) { return punctuationMark + ' '; });\n\n        // Simple suffixes (pure javascript translation from the Python code base)\n        translationString = translationString.replace(/(\\w*)\\s*{(\\^ed|\\^ing|\\^er|\\^s)}/g, simpleSuffix);\n        function simpleSuffix() {\n            var matchString = arguments[0];\n            var prevWord = arguments[1];\n            var suffix = arguments[2];\n            var returnString = '';\n\n            var CONSONANTS = { 'b': true, 'c': true, 'd': true, 'f': true, 'g': true, 'h': true, 'j': true, 'k': true, 'l': true, 'm': true, 'n': true, 'p': true, 'q': true, 'r': true, 's': true, 't': true, 'v': true, 'w': true, 'x': true, 'z': true, 'B': true, 'C': true, 'D': true, 'F': true, 'G': true, 'H': true, 'J': true, 'K': true, 'L': true, 'M': true, 'N': true, 'P': true, 'Q': true, 'R': true, 'S': true, 'T': true, 'V': true, 'W': true, 'X': true, 'Z': true };\n            var VOWELS = { 'a': true, 'e': true, 'i': true, 'o': true, 'u': true, 'A': true, 'E': true, 'I': true, 'O': true, 'U': true };\n            var W = { 'w': true, 'W': true };\n            var Y = { 'y': true, 'Y': true };\n            var PLURAL_SPECIAL = { 's': true, 'x': true, 'z': true, 'S': true, 'X': true, 'Z': true };\n            var prepForSimpleSuffix = function (wordParam) {\n                var numChars = wordParam.length;\n                if (numChars < 2) {\n                    return wordParam;\n                }\n                if (numChars >= 3) {\n                    thirdToLast = wordParam.slice(-3, -2);\n                } else {\n                    thirdToLast = '';\n                }\n                secondToLast = wordParam.slice(-2, -1);\n                last = wordParam.slice(-1);\n                if (secondToLast in VOWELS || secondToLast in CONSONANTS) {\n                    if (last in VOWELS) {\n                        if (thirdToLast && (thirdToLast in VOWELS || thirdToLast in CONSONANTS)) {\n                            return wordParam.slice(0, -1);\n                        }\n                    } else if (last in CONSONANTS && !(last in W) && secondToLast in VOWELS && thirdToLast && !(thirdToLast in VOWELS)) {\n                        return wordParam + last;\n                    } else if (last in Y && secondToLast in CONSONANTS) {\n                        return wordParam.slice(0, -1) + 'i';\n                    }\n                }\n                return wordParam;\n            }\n\n            if (suffix === '^s') {\n                if (prevWord.length < 2) {\n                    return prevWord + 's';\n                }\n                var a = prevWord.slice(-2, -1);\n                var b = prevWord.slice(-1);\n\n                if (b in PLURAL_SPECIAL) {\n                    return prevWord + 'es';\n                } else if (b in Y && a in CONSONANTS) {\n                    return prevWord.slice(0, -1) + 'ies';\n                }\n                return prevWord + 's';\n            }\n            if (suffix === '^ed') {\n                return prepForSimpleSuffix(prevWord) + 'ed';\n            }\n            if (suffix === '^er') {\n                return prepForSimpleSuffix(prevWord) + 'er';\n            }\n            if (suffix === '^ing') {\n                if (prevWord && prevWord.slice(-1) in Y) {\n                    return prevWord + 'ing';\n                }\n                return prepForSimpleSuffix(prevWord) + 'ing';\n            }\n        }\n\n        // Capitalize\n        translationString = translationString.replace(/\\s*{-\\|}\\s*(\\w?)/g, function (matchString, nextLetter) { return nextLetter.toUpperCase(); });\n\n        // Glue flag\n        translationString = translationString.replace(/(\\s*{&[^}]+}\\s*)+/g, glue);\n        function glue() {\n            var testString = '';\n            for (i = 0; i < arguments.length; i++) {\n                testString += arguments[i] + ', ';\n            }\n            var matchString = arguments[0];\n            matchString = matchString.replace(/\\s*{&([^}]+)}\\s*/g, function (a, p1) { return p1; });\n            return ' ' + matchString + ' ';\n        }\n\n        // Attach flag\n        translationString = translationString.replace(/\\s*{\\^([^}]+)\\^}\\s*/g, function (matchString, attachString) { return attachString; });\n        translationString = translationString.replace(/\\s*{\\^([^}]+)}(\\s*)/g, function (matchString, attachString, whitespace) { return attachString + whitespace; });\n        translationString = translationString.replace(/(\\s*){([^}]+)\\^}\\s*/g, function (matchString, whitespace, attachString) { return whitespace + attachString; });\n\n        // Key Combinations\n        translationString = translationString.replace(/\\s*{#Return}\\s*/g, '\\n');\n        translationString = translationString.replace(/\\s*{#Tab}\\s*/g, '\\t');\n\n        return translationString;\n    };\n\n    onChord(keys, next) {\n        // Limit\n        if (this._words.length > this._root.config.undo_history) this._words = this._words.slice(this._words.length - this._root.config.undo_history);\n\n        var modifyArr = [];\n        const chord = new Chord(keys);\n\n        // Slightly rewritten ploverpad code. Huge credits to openstenoproject for making plover open source.\n        if (this._words.length > 0) {\n            if (chord.toRTFCRE() !== '*') { // NORMAL KEYS\n                const lastWord = this._words[this._words.length - 1];\n                const combinedString = lastWord.toString() + '/' + chord.toRTFCRE();\n                modifyArr.push({ action: 'delete', amount: lastWord.length + 1 });\n                if (this._dictionary[combinedString]) {\n                    lastWord.addStroke(chord);\n                    modifyArr.push({ action: 'add', text: this._demetafy(chord.toEnglish(this._dictionary, this.macros.checkMarco) + ' ') });\n                } else {\n                    var temp = new Word([chord])\n                    this._words.push(temp);\n                    modifyArr.push({ action: 'add', text: this._demetafy(temp.toEnglish(this._dictionary, this.macros.checkMarco) + ' ') });\n                };\n            } else if (chord.toRTFCRE() === '*') { // SPECIAL KEY\n                if (this._words.length < 1) return;\n\n                modifyArr.push({ action: 'delete', amount: this._words.length + 1 });\n                this._words[this._words.length - 1].removeStroke();\n                if (this._words[this._words.length - 1].toString() === '') {\n                    this._words.pop();\n                };\n                if (this._words.length < 2 && this._words[this._words.length - 1]) modifyArr.push({ action: 'add', text: this._demetafy(this._words[this._words.length - 1].toEnglish(this._dictionary, this.macros.checkMarco) + ' ') });\n            };\n        } else { // NEW STROKE\n            var temp = new Word([chord]);\n            this._words.push(temp);\n            modifyArr.push({ action: 'add', text: this._demetafy(temp.toEnglish(this._dictionary, this.macros.checkMarco) + ' ') });\n        };\n\n        const fullSteno = this._words.reduce((acc, word) => acc + word.toEnglish(this._dictionary, this.macros.checkMarco) + ' ', '');\n        this.output._onData(this._demetafy(fullSteno));\n\n        // Handle modify  [ { action: 'delete', amount: 5 }, { action: 'add', text: \"hello\" } ]\n        this.output._onModify(modifyArr);\n\n        return next();\n    };\n\n    lookup(phrase) {\n\n    };\n\n    reloadAll() {\n        if (this.dicts.length < 1) {\n            this.emit(\"reloadAllFailed\");\n            this._root.emit(\"dictionariesReloadFailed\");\n            return false;\n        };\n\n        this.dicts.forEach(dict => this.load(dict, false));\n        this._dictionary = this._generateDictionary();\n        this.emit(\"reloadAll\", this.dicts);\n        this._root.emit(\"dictionariesReload\");\n        return true;\n    };\n\n    load(dict, genDict = true) {\n        if (typeof dict !== 'object') return false;\n\n        this.dicts.push(dict);\n\n        if (genDict == true) this._dictionary = this._generateDictionary();\n\n        if (dict in this.dicts) {\n            this.emit(\"load\", dict);\n            this._root.emit(\"dictionaryLoad\", dict);\n\n            this.emit(\"reload\", dict);\n            this._root.emit(\"dictionaryReload\", dict);\n\n            return dict;\n        } else {\n            this.emit(\"loadFailed\", dict);\n            this._root.emit(\"dictionaryLoadFailed\", dict);\n\n            this.emit(\"reloadFailed\", dict);\n            this._root.emit(\"dictionaryReloadFailed\", dict);\n\n            return false;\n        };\n    };\n\n    unload(dict) {\n        if (dict in this.dicts) {\n            delete this.dicts[this.dicts.indexOf(dict)];\n            this._dictionary = this._generateDictionary();\n            return true;\n        } else {\n            return false;\n        };\n    };\n}\n\nexport { DictLoader };",
+    "static": true,
+    "longname": "/Users/haydengrattan/Desktop/Kestrel.js/lib/dictionary/loader.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 94,
+    "kind": "class",
+    "name": "DictLoader",
+    "memberof": "lib/dictionary/loader.js",
+    "static": true,
+    "longname": "lib/dictionary/loader.js~DictLoader",
+    "access": "public",
+    "export": true,
+    "importPath": "kestrel.js/lib/dictionary/loader.js",
+    "importStyle": "{DictLoader}",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "lib/events/events.js~event.EventEmitter"
+    ]
+  },
+  {
+    "__docId__": 95,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "lib/dictionary/loader.js~DictLoader",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/dictionary/loader.js~DictLoader#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true
+  },
+  {
+    "__docId__": 96,
+    "kind": "member",
+    "name": "isdict",
+    "memberof": "lib/dictionary/loader.js~DictLoader",
+    "static": false,
+    "longname": "lib/dictionary/loader.js~DictLoader#isdict",
+    "access": "public",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 97,
+    "kind": "member",
+    "name": "convert",
+    "memberof": "lib/dictionary/loader.js~DictLoader",
+    "static": false,
+    "longname": "lib/dictionary/loader.js~DictLoader#convert",
+    "access": "public",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 98,
+    "kind": "member",
+    "name": "output",
+    "memberof": "lib/dictionary/loader.js~DictLoader",
+    "static": false,
+    "longname": "lib/dictionary/loader.js~DictLoader#output",
+    "access": "public",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 99,
+    "kind": "member",
+    "name": "_root",
+    "memberof": "lib/dictionary/loader.js~DictLoader",
+    "static": false,
+    "longname": "lib/dictionary/loader.js~DictLoader#_root",
+    "access": "private",
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 100,
+    "kind": "member",
+    "name": "_words",
+    "memberof": "lib/dictionary/loader.js~DictLoader",
+    "static": false,
+    "longname": "lib/dictionary/loader.js~DictLoader#_words",
+    "access": "private",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*[]"
+      ]
+    }
+  },
+  {
+    "__docId__": 101,
+    "kind": "member",
+    "name": "_dictionary",
+    "memberof": "lib/dictionary/loader.js~DictLoader",
+    "static": false,
+    "longname": "lib/dictionary/loader.js~DictLoader#_dictionary",
+    "access": "private",
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{}"
+      ]
+    }
+  },
+  {
+    "__docId__": 102,
+    "kind": "member",
+    "name": "dicts",
+    "memberof": "lib/dictionary/loader.js~DictLoader",
+    "static": false,
+    "longname": "lib/dictionary/loader.js~DictLoader#dicts",
+    "access": "public",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*[]"
+      ]
+    }
+  },
+  {
+    "__docId__": 103,
+    "kind": "member",
+    "name": "macros",
+    "memberof": "lib/dictionary/loader.js~DictLoader",
+    "static": false,
+    "longname": "lib/dictionary/loader.js~DictLoader#macros",
+    "access": "public",
+    "description": null,
+    "lineNumber": 20,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 104,
+    "kind": "member",
+    "name": "reload",
+    "memberof": "lib/dictionary/loader.js~DictLoader",
+    "static": false,
+    "longname": "lib/dictionary/loader.js~DictLoader#reload",
+    "access": "public",
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 105,
+    "kind": "member",
+    "name": "remove",
+    "memberof": "lib/dictionary/loader.js~DictLoader",
+    "static": false,
+    "longname": "lib/dictionary/loader.js~DictLoader#remove",
+    "access": "public",
+    "description": null,
+    "lineNumber": 24,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 106,
+    "kind": "member",
+    "name": "add",
+    "memberof": "lib/dictionary/loader.js~DictLoader",
+    "static": false,
+    "longname": "lib/dictionary/loader.js~DictLoader#add",
+    "access": "public",
+    "description": null,
+    "lineNumber": 25,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 107,
+    "kind": "method",
+    "name": "onLoad",
+    "memberof": "lib/dictionary/loader.js~DictLoader",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/dictionary/loader.js~DictLoader#onLoad",
+    "access": "public",
+    "description": null,
+    "lineNumber": 28,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 108,
+    "kind": "method",
+    "name": "onUnload",
+    "memberof": "lib/dictionary/loader.js~DictLoader",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/dictionary/loader.js~DictLoader#onUnload",
+    "access": "public",
+    "description": null,
+    "lineNumber": 32,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 109,
+    "kind": "method",
+    "name": "_generateDictionary",
+    "memberof": "lib/dictionary/loader.js~DictLoader",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/dictionary/loader.js~DictLoader#_generateDictionary",
+    "access": "private",
+    "description": null,
+    "lineNumber": 36,
+    "undocument": true,
+    "params": [
+      {
+        "name": "dicts",
+        "optional": true,
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 110,
+    "kind": "method",
+    "name": "_demetafy",
+    "memberof": "lib/dictionary/loader.js~DictLoader",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/dictionary/loader.js~DictLoader#_demetafy",
+    "access": "private",
+    "description": null,
+    "lineNumber": 50,
+    "undocument": true,
+    "params": [
+      {
+        "name": "translationString",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 111,
+    "kind": "method",
+    "name": "onChord",
+    "memberof": "lib/dictionary/loader.js~DictLoader",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/dictionary/loader.js~DictLoader#onChord",
+    "access": "public",
+    "description": null,
+    "lineNumber": 154,
+    "undocument": true,
+    "params": [
+      {
+        "name": "keys",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "next",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 113,
+    "kind": "method",
+    "name": "lookup",
+    "memberof": "lib/dictionary/loader.js~DictLoader",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/dictionary/loader.js~DictLoader#lookup",
+    "access": "public",
+    "description": null,
+    "lineNumber": 200,
+    "undocument": true,
+    "params": [
+      {
+        "name": "phrase",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 114,
+    "kind": "method",
+    "name": "reloadAll",
+    "memberof": "lib/dictionary/loader.js~DictLoader",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/dictionary/loader.js~DictLoader#reloadAll",
+    "access": "public",
+    "description": null,
+    "lineNumber": 204,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 116,
+    "kind": "method",
+    "name": "load",
+    "memberof": "lib/dictionary/loader.js~DictLoader",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/dictionary/loader.js~DictLoader#load",
+    "access": "public",
+    "description": null,
+    "lineNumber": 218,
+    "undocument": true,
+    "params": [
+      {
+        "name": "dict",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "genDict",
+        "optional": true,
+        "types": [
+          "boolean"
+        ],
+        "defaultRaw": true,
+        "defaultValue": "true"
+      }
+    ],
+    "return": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 118,
+    "kind": "method",
+    "name": "unload",
+    "memberof": "lib/dictionary/loader.js~DictLoader",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/dictionary/loader.js~DictLoader#unload",
+    "access": "public",
+    "description": null,
+    "lineNumber": 244,
+    "undocument": true,
+    "params": [
+      {
+        "name": "dict",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 120,
+    "kind": "file",
+    "name": "lib/engine/chord.js",
+    "content": "import Convert from '../convert.js';\n\nclass Chord {\n    constructor(keys) {\n        this.keys = keys.reduce(function (result, item, index, array) {\n            result[item] = item;\n            return result;\n        }, {});\n    }\n\n    toString() {\n        return `${Object.values(this.keys).map(key => key).join(', ')}`;\n    }\n\n    getKeys() {\n        return this.keys;\n    }\n\n    setKeys(newKeys) {\n        this.keys = newKeys[0];\n    }\n\n    contains(keyParam) {\n        return Object.values(this.keys).includes(keyParam);\n    }\n\n    toBinary() {\n        return Object.values(this.keys).reduce((flags, key) => {\n            const keyBinary = Convert.binaryToSteno[key];\n            return flags | keyBinary;\n        }, 0);\n    }\n\n    toRTFCRE() {\n        // TAKEN FROM PLOVERPAD\n        // FULL CREDITS\n\n        var rtfcre = '';\n        for (var i = parseInt('00000000000000000000001', 2); i <= parseInt('10000000000000000000000', 2); i <<= 1) {\n            if (this.contains(Convert.binaryToSteno[i]) && Convert.binaryToSteno[i] != '#') {\n                if (this.contains('#') && Convert.stenoToNumbers[Convert.binaryToSteno[i]]) {\n                    rtfcre += Convert.stenoToNumbers[Convert.binaryToSteno[i]];\n                } else {\n                    rtfcre += Convert.binaryToSteno[i];\n                }\n            }\n        }\n        if (this.contains('A-') || this.contains('O-') || this.contains('-E') || this.contains('-U') || this.contains('*')) {\n            return rtfcre.replace(/-/g, '');\n        }\n        if (rtfcre[0] === '-') {\n            return '-' + rtfcre.replace('--', '.').replace(/-/g, '').replace('.', '-');\n        } else {\n            return rtfcre.replace('--', '.').replace(/-/g, '').replace('.', '-');\n        }\n    }\n\n    addKey(key) {\n        this.keys[key] = key;\n    }\n\n    removeKey(key) {\n        if (key in this.keys) {\n            delete this.keys[key];\n        }\n    }\n}\n\nexport default Chord;",
+    "static": true,
+    "longname": "/Users/haydengrattan/Desktop/Kestrel.js/lib/engine/chord.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 121,
+    "kind": "class",
+    "name": "Chord",
+    "memberof": "lib/engine/chord.js",
+    "static": true,
+    "longname": "lib/engine/chord.js~Chord",
+    "access": "public",
+    "export": true,
+    "importPath": "kestrel.js/lib/engine/chord.js",
+    "importStyle": "Chord",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "interface": false
+  },
+  {
+    "__docId__": 122,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "lib/engine/chord.js~Chord",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/engine/chord.js~Chord#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true
+  },
+  {
+    "__docId__": 123,
+    "kind": "member",
+    "name": "keys",
+    "memberof": "lib/engine/chord.js~Chord",
+    "static": false,
+    "longname": "lib/engine/chord.js~Chord#keys",
+    "access": "public",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 124,
+    "kind": "method",
+    "name": "toString",
+    "memberof": "lib/engine/chord.js~Chord",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/engine/chord.js~Chord#toString",
+    "access": "public",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 125,
+    "kind": "method",
+    "name": "getKeys",
+    "memberof": "lib/engine/chord.js~Chord",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/engine/chord.js~Chord#getKeys",
+    "access": "public",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 126,
+    "kind": "method",
+    "name": "setKeys",
+    "memberof": "lib/engine/chord.js~Chord",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/engine/chord.js~Chord#setKeys",
+    "access": "public",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "params": [
+      {
+        "name": "newKeys",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 128,
+    "kind": "method",
+    "name": "contains",
+    "memberof": "lib/engine/chord.js~Chord",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/engine/chord.js~Chord#contains",
+    "access": "public",
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "params": [
+      {
+        "name": "keyParam",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 129,
+    "kind": "method",
+    "name": "toBinary",
+    "memberof": "lib/engine/chord.js~Chord",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/engine/chord.js~Chord#toBinary",
+    "access": "public",
+    "description": null,
+    "lineNumber": 27,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 130,
+    "kind": "method",
+    "name": "toRTFCRE",
+    "memberof": "lib/engine/chord.js~Chord",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/engine/chord.js~Chord#toRTFCRE",
+    "access": "public",
+    "description": null,
+    "lineNumber": 34,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 131,
+    "kind": "method",
+    "name": "addKey",
+    "memberof": "lib/engine/chord.js~Chord",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/engine/chord.js~Chord#addKey",
+    "access": "public",
+    "description": null,
+    "lineNumber": 58,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 132,
+    "kind": "method",
+    "name": "removeKey",
+    "memberof": "lib/engine/chord.js~Chord",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/engine/chord.js~Chord#removeKey",
+    "access": "public",
+    "description": null,
+    "lineNumber": 62,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 133,
+    "kind": "file",
+    "name": "lib/engine/parser.js",
+    "content": "import Convert from '../convert.js';\n\nclass Parser {\n    constructor(root) {\n        // Private\n        this._root = root;\n        this._downKeys = [];\n        this._chordKeys = [];\n        this._allSteno = true;\n\n        // Public\n\n        // Aliases\n    };\n\n    onKeyDown(key) {\n        this._root.addons._onKeyDown.apply(this._root.addons, [key]);\n\n        // New stroke\n        if (this._downKeys.length < 1) {\n            this._downKeys = [];\n            this._chordKeys = [];\n            this._allSteno = true;\n        };\n\n        // Push keys\n        if(!this._downKeys.includes(key)) this._downKeys.push(key);\n        if(!this._chordKeys.includes(key)) this._chordKeys.push(key);\n\n        // Fix issues with key shortcuts\n        if (!Convert.stenoToKeyCode[key]) this._allSteno = false;\n    };\n\n    onKeyUp(key) {\n        this._root.addons._onKeyUp.call(this._root.addons, key);\n\n        // Delete key\n        this._downKeys = this._downKeys.filter(e => e !== key);\n\n        // Finish stroke\n        if (this._allSteno == true && this._downKeys.length < 1 && this._root.config.arpeggiate == false) {\n            var temp = this._chordKeys;\n            this._root.output._onChord.call(this._root.output, temp);\n            this._root.addons._onChord.call(this._root.addons, temp);\n        };\n    };\n\n    arpeggiate() {\n        // Finish stroke\n        if (this._allSteno == true && this._downKeys.length < 2 && this._root.config.arpeggiate == true) {\n            var temp = this._chordKeys;\n            this._root.output._onChord.call(this._root.output, temp);\n            this._root.addons._onChord.call(this._root.addons, temp);\n            return true;\n        };\n        \n        return false;\n    };\n}\n\nexport { Parser };",
+    "static": true,
+    "longname": "/Users/haydengrattan/Desktop/Kestrel.js/lib/engine/parser.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 134,
+    "kind": "class",
+    "name": "Parser",
+    "memberof": "lib/engine/parser.js",
+    "static": true,
+    "longname": "lib/engine/parser.js~Parser",
+    "access": "public",
+    "export": true,
+    "importPath": "kestrel.js/lib/engine/parser.js",
+    "importStyle": "{Parser}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "interface": false
+  },
+  {
+    "__docId__": 135,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "lib/engine/parser.js~Parser",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/engine/parser.js~Parser#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true
+  },
+  {
+    "__docId__": 136,
+    "kind": "member",
+    "name": "_root",
+    "memberof": "lib/engine/parser.js~Parser",
+    "static": false,
+    "longname": "lib/engine/parser.js~Parser#_root",
+    "access": "private",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 137,
+    "kind": "member",
+    "name": "_downKeys",
+    "memberof": "lib/engine/parser.js~Parser",
+    "static": false,
+    "longname": "lib/engine/parser.js~Parser#_downKeys",
+    "access": "private",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*[]"
+      ]
+    }
+  },
+  {
+    "__docId__": 138,
+    "kind": "member",
+    "name": "_chordKeys",
+    "memberof": "lib/engine/parser.js~Parser",
+    "static": false,
+    "longname": "lib/engine/parser.js~Parser#_chordKeys",
+    "access": "private",
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*[]"
+      ]
+    }
+  },
+  {
+    "__docId__": 139,
+    "kind": "member",
+    "name": "_allSteno",
+    "memberof": "lib/engine/parser.js~Parser",
+    "static": false,
+    "longname": "lib/engine/parser.js~Parser#_allSteno",
+    "access": "private",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 140,
+    "kind": "method",
+    "name": "onKeyDown",
+    "memberof": "lib/engine/parser.js~Parser",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/engine/parser.js~Parser#onKeyDown",
+    "access": "public",
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 145,
+    "kind": "method",
+    "name": "onKeyUp",
+    "memberof": "lib/engine/parser.js~Parser",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/engine/parser.js~Parser#onKeyUp",
+    "access": "public",
+    "description": null,
+    "lineNumber": 34,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 147,
+    "kind": "method",
+    "name": "arpeggiate",
+    "memberof": "lib/engine/parser.js~Parser",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/engine/parser.js~Parser#arpeggiate",
+    "access": "public",
+    "description": null,
+    "lineNumber": 48,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 148,
+    "kind": "file",
+    "name": "lib/engine/word.js",
+    "content": "class Word {\n    constructor(strokes) {\n        this.strokes = strokes;\n\n        //this.string = strokes.map(stroke => stroke.toRTFCRE()).join('/');\n        //console.log(this.string)\n        this.string = '';\n        if (this.strokes.length > 0) {\n            for (var i = 0; i < this.strokes.length; i++) {\n                this.string += this.strokes[i].toRTFCRE() + '/';\n            }\n            this.string = this.string.slice(0, -1);\n        };\n    }\n\n    toString() {\n        return this.string;\n    }\n\n    getStrokes() {\n        return this.strokes;\n    }\n\n    setStrokes(newStrokes) {\n        this.strokes = newStrokes;\n        this.string = newStrokes.map(stroke => stroke.toRTFCRE()).join('/');\n    }\n\n    addStroke(stroke) {\n        this.strokes.push(stroke);\n        this.string += '/' + stroke.toRTFCRE();\n    }\n\n    removeStroke() {\n        this.strokes.pop();\n        this.string = this.strokes.map(stroke => stroke.toRTFCRE()).join('/');\n    }\n\n    toEnglish = function (dictionary, checkMarco) {\n        if (dictionary[this.string]) {\n            if (checkMarco(dictionary[this.string]) !== false) {\n                return checkMarco(dictionary[this.string])();\n            };\n            return dictionary[this.string];\n        } else {\n            return this.string;\n        }\n    }\n}\n\nexport default Word;",
+    "static": true,
+    "longname": "/Users/haydengrattan/Desktop/Kestrel.js/lib/engine/word.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 149,
+    "kind": "class",
+    "name": "Word",
+    "memberof": "lib/engine/word.js",
+    "static": true,
+    "longname": "lib/engine/word.js~Word",
+    "access": "public",
+    "export": true,
+    "importPath": "kestrel.js/lib/engine/word.js",
+    "importStyle": "Word",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "interface": false
+  },
+  {
+    "__docId__": 150,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "lib/engine/word.js~Word",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/engine/word.js~Word#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true
+  },
+  {
+    "__docId__": 151,
+    "kind": "member",
+    "name": "strokes",
+    "memberof": "lib/engine/word.js~Word",
+    "static": false,
+    "longname": "lib/engine/word.js~Word#strokes",
+    "access": "public",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 152,
+    "kind": "member",
+    "name": "string",
+    "memberof": "lib/engine/word.js~Word",
+    "static": false,
+    "longname": "lib/engine/word.js~Word#string",
+    "access": "public",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 155,
+    "kind": "method",
+    "name": "toString",
+    "memberof": "lib/engine/word.js~Word",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/engine/word.js~Word#toString",
+    "access": "public",
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 156,
+    "kind": "method",
+    "name": "getStrokes",
+    "memberof": "lib/engine/word.js~Word",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/engine/word.js~Word#getStrokes",
+    "access": "public",
+    "description": null,
+    "lineNumber": 20,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 157,
+    "kind": "method",
+    "name": "setStrokes",
+    "memberof": "lib/engine/word.js~Word",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/engine/word.js~Word#setStrokes",
+    "access": "public",
+    "description": null,
+    "lineNumber": 24,
+    "undocument": true,
+    "params": [
+      {
+        "name": "newStrokes",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 160,
+    "kind": "method",
+    "name": "addStroke",
+    "memberof": "lib/engine/word.js~Word",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/engine/word.js~Word#addStroke",
+    "access": "public",
+    "description": null,
+    "lineNumber": 29,
+    "undocument": true,
+    "params": [
+      {
+        "name": "stroke",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 162,
+    "kind": "method",
+    "name": "removeStroke",
+    "memberof": "lib/engine/word.js~Word",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/engine/word.js~Word#removeStroke",
+    "access": "public",
+    "description": null,
+    "lineNumber": 34,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 164,
+    "kind": "member",
+    "name": "toEnglish",
+    "memberof": "lib/engine/word.js~Word",
+    "static": false,
+    "longname": "lib/engine/word.js~Word#toEnglish",
+    "access": "public",
+    "description": null,
+    "lineNumber": 39,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 165,
+    "kind": "file",
+    "name": "lib/events/events.js",
+    "content": "// Copyright Joyent, Inc. and other Node contributors.\n//\n// Permission is hereby granted, free of charge, to any person obtaining a\n// copy of this software and associated documentation files (the\n// \"Software\"), to deal in the Software without restriction, including\n// without limitation the rights to use, copy, modify, merge, publish,\n// distribute, sublicense, and/or sell copies of the Software, and to permit\n// persons to whom the Software is furnished to do so, subject to the\n// following conditions:\n//\n// The above copyright notice and this permission notice shall be included\n// in all copies or substantial portions of the Software.\n//\n// THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\n// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN\n// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,\n// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR\n// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE\n// USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n'use strict';\n\nvar R = typeof Reflect === 'object' ? Reflect : null\nvar ReflectApply = R && typeof R.apply === 'function'\n  ? R.apply\n  : function ReflectApply(target, receiver, args) {\n    return Function.prototype.apply.call(target, receiver, args);\n  }\n\nvar ReflectOwnKeys\nif (R && typeof R.ownKeys === 'function') {\n  ReflectOwnKeys = R.ownKeys\n} else if (Object.getOwnPropertySymbols) {\n  ReflectOwnKeys = function ReflectOwnKeys(target) {\n    return Object.getOwnPropertyNames(target)\n      .concat(Object.getOwnPropertySymbols(target));\n  };\n} else {\n  ReflectOwnKeys = function ReflectOwnKeys(target) {\n    return Object.getOwnPropertyNames(target);\n  };\n}\n\nfunction ProcessEmitWarning(warning) {\n  if (console && console.warn) console.warn(warning);\n}\n\nvar NumberIsNaN = Number.isNaN || function NumberIsNaN(value) {\n  return value !== value;\n}\n\nfunction EventEmitter() {\n  EventEmitter.init.call(this);\n}\nEventEmitter.once = once;\nexport default { EventEmitter }; // CHANGED TO ESM\n\n// Backwards-compat with node 0.10.x\nEventEmitter.EventEmitter = EventEmitter;\n\nEventEmitter.prototype._events = undefined;\nEventEmitter.prototype._eventsCount = 0;\nEventEmitter.prototype._maxListeners = undefined;\n\n// By default EventEmitters will print a warning if more than 10 listeners are\n// added to it. This is a useful default which helps finding memory leaks.\nvar defaultMaxListeners = 10;\n\nfunction checkListener(listener) {\n  if (typeof listener !== 'function') {\n    throw new TypeError('The \"listener\" argument must be of type Function. Received type ' + typeof listener);\n  }\n}\n\nObject.defineProperty(EventEmitter, 'defaultMaxListeners', {\n  enumerable: true,\n  get: function() {\n    return defaultMaxListeners;\n  },\n  set: function(arg) {\n    if (typeof arg !== 'number' || arg < 0 || NumberIsNaN(arg)) {\n      throw new RangeError('The value of \"defaultMaxListeners\" is out of range. It must be a non-negative number. Received ' + arg + '.');\n    }\n    defaultMaxListeners = arg;\n  }\n});\n\nEventEmitter.init = function() {\n\n  if (this._events === undefined ||\n      this._events === Object.getPrototypeOf(this)._events) {\n    this._events = Object.create(null);\n    this._eventsCount = 0;\n  }\n\n  this._maxListeners = this._maxListeners || undefined;\n};\n\n// Obviously not all Emitters should be limited to 10. This function allows\n// that to be increased. Set to zero for unlimited.\nEventEmitter.prototype.setMaxListeners = function setMaxListeners(n) {\n  if (typeof n !== 'number' || n < 0 || NumberIsNaN(n)) {\n    throw new RangeError('The value of \"n\" is out of range. It must be a non-negative number. Received ' + n + '.');\n  }\n  this._maxListeners = n;\n  return this;\n};\n\nfunction _getMaxListeners(that) {\n  if (that._maxListeners === undefined)\n    return EventEmitter.defaultMaxListeners;\n  return that._maxListeners;\n}\n\nEventEmitter.prototype.getMaxListeners = function getMaxListeners() {\n  return _getMaxListeners(this);\n};\n\nEventEmitter.prototype.emit = function emit(type) {\n  var args = [];\n  for (var i = 1; i < arguments.length; i++) args.push(arguments[i]);\n  var doError = (type === 'error');\n\n  var events = this._events;\n  if (events !== undefined)\n    doError = (doError && events.error === undefined);\n  else if (!doError)\n    return false;\n\n  // If there is no 'error' event listener then throw.\n  if (doError) {\n    var er;\n    if (args.length > 0)\n      er = args[0];\n    if (er instanceof Error) {\n      // Note: The comments on the `throw` lines are intentional, they show\n      // up in Node's output if this results in an unhandled exception.\n      throw er; // Unhandled 'error' event\n    }\n    // At least give some kind of context to the user\n    var err = new Error('Unhandled error.' + (er ? ' (' + er.message + ')' : ''));\n    err.context = er;\n    throw err; // Unhandled 'error' event\n  }\n\n  var handler = events[type];\n\n  if (handler === undefined)\n    return false;\n\n  if (typeof handler === 'function') {\n    ReflectApply(handler, this, args);\n  } else {\n    var len = handler.length;\n    var listeners = arrayClone(handler, len);\n    for (var i = 0; i < len; ++i)\n      ReflectApply(listeners[i], this, args);\n  }\n\n  return true;\n};\n\nfunction _addListener(target, type, listener, prepend) {\n  var m;\n  var events;\n  var existing;\n\n  checkListener(listener);\n\n  events = target._events;\n  if (events === undefined) {\n    events = target._events = Object.create(null);\n    target._eventsCount = 0;\n  } else {\n    // To avoid recursion in the case that type === \"newListener\"! Before\n    // adding it to the listeners, first emit \"newListener\".\n    if (events.newListener !== undefined) {\n      target.emit('newListener', type,\n                  listener.listener ? listener.listener : listener);\n\n      // Re-assign `events` because a newListener handler could have caused the\n      // this._events to be assigned to a new object\n      events = target._events;\n    }\n    existing = events[type];\n  }\n\n  if (existing === undefined) {\n    // Optimize the case of one listener. Don't need the extra array object.\n    existing = events[type] = listener;\n    ++target._eventsCount;\n  } else {\n    if (typeof existing === 'function') {\n      // Adding the second element, need to change to array.\n      existing = events[type] =\n        prepend ? [listener, existing] : [existing, listener];\n      // If we've already got an array, just append.\n    } else if (prepend) {\n      existing.unshift(listener);\n    } else {\n      existing.push(listener);\n    }\n\n    // Check for listener leak\n    m = _getMaxListeners(target);\n    if (m > 0 && existing.length > m && !existing.warned) {\n      existing.warned = true;\n      // No error code for this since it is a Warning\n      // eslint-disable-next-line no-restricted-syntax\n      var w = new Error('Possible EventEmitter memory leak detected. ' +\n                          existing.length + ' ' + String(type) + ' listeners ' +\n                          'added. Use emitter.setMaxListeners() to ' +\n                          'increase limit');\n      w.name = 'MaxListenersExceededWarning';\n      w.emitter = target;\n      w.type = type;\n      w.count = existing.length;\n      ProcessEmitWarning(w);\n    }\n  }\n\n  return target;\n}\n\nEventEmitter.prototype.addListener = function addListener(type, listener) {\n  return _addListener(this, type, listener, false);\n};\n\nEventEmitter.prototype.on = EventEmitter.prototype.addListener;\n\nEventEmitter.prototype.prependListener =\n    function prependListener(type, listener) {\n      return _addListener(this, type, listener, true);\n    };\n\nfunction onceWrapper() {\n  if (!this.fired) {\n    this.target.removeListener(this.type, this.wrapFn);\n    this.fired = true;\n    if (arguments.length === 0)\n      return this.listener.call(this.target);\n    return this.listener.apply(this.target, arguments);\n  }\n}\n\nfunction _onceWrap(target, type, listener) {\n  var state = { fired: false, wrapFn: undefined, target: target, type: type, listener: listener };\n  var wrapped = onceWrapper.bind(state);\n  wrapped.listener = listener;\n  state.wrapFn = wrapped;\n  return wrapped;\n}\n\nEventEmitter.prototype.once = function once(type, listener) {\n  checkListener(listener);\n  this.on(type, _onceWrap(this, type, listener));\n  return this;\n};\n\nEventEmitter.prototype.prependOnceListener =\n    function prependOnceListener(type, listener) {\n      checkListener(listener);\n      this.prependListener(type, _onceWrap(this, type, listener));\n      return this;\n    };\n\n// Emits a 'removeListener' event if and only if the listener was removed.\nEventEmitter.prototype.removeListener =\n    function removeListener(type, listener) {\n      var list, events, position, i, originalListener;\n\n      checkListener(listener);\n\n      events = this._events;\n      if (events === undefined)\n        return this;\n\n      list = events[type];\n      if (list === undefined)\n        return this;\n\n      if (list === listener || list.listener === listener) {\n        if (--this._eventsCount === 0)\n          this._events = Object.create(null);\n        else {\n          delete events[type];\n          if (events.removeListener)\n            this.emit('removeListener', type, list.listener || listener);\n        }\n      } else if (typeof list !== 'function') {\n        position = -1;\n\n        for (i = list.length - 1; i >= 0; i--) {\n          if (list[i] === listener || list[i].listener === listener) {\n            originalListener = list[i].listener;\n            position = i;\n            break;\n          }\n        }\n\n        if (position < 0)\n          return this;\n\n        if (position === 0)\n          list.shift();\n        else {\n          spliceOne(list, position);\n        }\n\n        if (list.length === 1)\n          events[type] = list[0];\n\n        if (events.removeListener !== undefined)\n          this.emit('removeListener', type, originalListener || listener);\n      }\n\n      return this;\n    };\n\nEventEmitter.prototype.off = EventEmitter.prototype.removeListener;\n\nEventEmitter.prototype.removeAllListeners =\n    function removeAllListeners(type) {\n      var listeners, events, i;\n\n      events = this._events;\n      if (events === undefined)\n        return this;\n\n      // not listening for removeListener, no need to emit\n      if (events.removeListener === undefined) {\n        if (arguments.length === 0) {\n          this._events = Object.create(null);\n          this._eventsCount = 0;\n        } else if (events[type] !== undefined) {\n          if (--this._eventsCount === 0)\n            this._events = Object.create(null);\n          else\n            delete events[type];\n        }\n        return this;\n      }\n\n      // emit removeListener for all listeners on all events\n      if (arguments.length === 0) {\n        var keys = Object.keys(events);\n        var key;\n        for (i = 0; i < keys.length; ++i) {\n          key = keys[i];\n          if (key === 'removeListener') continue;\n          this.removeAllListeners(key);\n        }\n        this.removeAllListeners('removeListener');\n        this._events = Object.create(null);\n        this._eventsCount = 0;\n        return this;\n      }\n\n      listeners = events[type];\n\n      if (typeof listeners === 'function') {\n        this.removeListener(type, listeners);\n      } else if (listeners !== undefined) {\n        // LIFO order\n        for (i = listeners.length - 1; i >= 0; i--) {\n          this.removeListener(type, listeners[i]);\n        }\n      }\n\n      return this;\n    };\n\nfunction _listeners(target, type, unwrap) {\n  var events = target._events;\n\n  if (events === undefined)\n    return [];\n\n  var evlistener = events[type];\n  if (evlistener === undefined)\n    return [];\n\n  if (typeof evlistener === 'function')\n    return unwrap ? [evlistener.listener || evlistener] : [evlistener];\n\n  return unwrap ?\n    unwrapListeners(evlistener) : arrayClone(evlistener, evlistener.length);\n}\n\nEventEmitter.prototype.listeners = function listeners(type) {\n  return _listeners(this, type, true);\n};\n\nEventEmitter.prototype.rawListeners = function rawListeners(type) {\n  return _listeners(this, type, false);\n};\n\nEventEmitter.listenerCount = function(emitter, type) {\n  if (typeof emitter.listenerCount === 'function') {\n    return emitter.listenerCount(type);\n  } else {\n    return listenerCount.call(emitter, type);\n  }\n};\n\nEventEmitter.prototype.listenerCount = listenerCount;\nfunction listenerCount(type) {\n  var events = this._events;\n\n  if (events !== undefined) {\n    var evlistener = events[type];\n\n    if (typeof evlistener === 'function') {\n      return 1;\n    } else if (evlistener !== undefined) {\n      return evlistener.length;\n    }\n  }\n\n  return 0;\n}\n\nEventEmitter.prototype.eventNames = function eventNames() {\n  return this._eventsCount > 0 ? ReflectOwnKeys(this._events) : [];\n};\n\nfunction arrayClone(arr, n) {\n  var copy = new Array(n);\n  for (var i = 0; i < n; ++i)\n    copy[i] = arr[i];\n  return copy;\n}\n\nfunction spliceOne(list, index) {\n  for (; index + 1 < list.length; index++)\n    list[index] = list[index + 1];\n  list.pop();\n}\n\nfunction unwrapListeners(arr) {\n  var ret = new Array(arr.length);\n  for (var i = 0; i < ret.length; ++i) {\n    ret[i] = arr[i].listener || arr[i];\n  }\n  return ret;\n}\n\nfunction once(emitter, name) {\n  return new Promise(function (resolve, reject) {\n    function errorListener(err) {\n      emitter.removeListener(name, resolver);\n      reject(err);\n    }\n\n    function resolver() {\n      if (typeof emitter.removeListener === 'function') {\n        emitter.removeListener('error', errorListener);\n      }\n      resolve([].slice.call(arguments));\n    };\n\n    eventTargetAgnosticAddListener(emitter, name, resolver, { once: true });\n    if (name !== 'error') {\n      addErrorHandlerIfEventEmitter(emitter, errorListener, { once: true });\n    }\n  });\n}\n\nfunction addErrorHandlerIfEventEmitter(emitter, handler, flags) {\n  if (typeof emitter.on === 'function') {\n    eventTargetAgnosticAddListener(emitter, 'error', handler, flags);\n  }\n}\n\nfunction eventTargetAgnosticAddListener(emitter, name, listener, flags) {\n  if (typeof emitter.on === 'function') {\n    if (flags.once) {\n      emitter.once(name, listener);\n    } else {\n      emitter.on(name, listener);\n    }\n  } else if (typeof emitter.addEventListener === 'function') {\n    // EventTarget does not have `error` event semantics like Node\n    // EventEmitters, we do not listen for `error` events here.\n    emitter.addEventListener(name, function wrapListener(arg) {\n      // IE does not have builtin `{ once: true }` support so we\n      // have to do it manually.\n      if (flags.once) {\n        emitter.removeEventListener(name, wrapListener);\n      }\n      listener(arg);\n    });\n  } else {\n    throw new TypeError('The \"emitter\" argument must be of type EventEmitter. Received type ' + typeof emitter);\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/haydengrattan/Desktop/Kestrel.js/lib/events/events.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 166,
+    "kind": "variable",
+    "name": "R",
+    "memberof": "lib/events/events.js",
+    "static": true,
+    "longname": "lib/events/events.js~R",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 24,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 167,
+    "kind": "variable",
+    "name": "ReflectApply",
+    "memberof": "lib/events/events.js",
+    "static": true,
+    "longname": "lib/events/events.js~ReflectApply",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 25,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 168,
+    "kind": "function",
+    "name": "ProcessEmitWarning",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~ProcessEmitWarning",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 45,
+    "undocument": true,
+    "params": [
+      {
+        "name": "warning",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 169,
+    "kind": "variable",
+    "name": "NumberIsNaN",
+    "memberof": "lib/events/events.js",
+    "static": true,
+    "longname": "lib/events/events.js~NumberIsNaN",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 49,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 170,
+    "kind": "function",
+    "name": "EventEmitter",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~EventEmitter",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 53,
+    "undocument": true,
+    "params": [],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 171,
+    "kind": "variable",
+    "name": "defaultMaxListeners",
+    "memberof": "lib/events/events.js",
+    "static": true,
+    "longname": "lib/events/events.js~defaultMaxListeners",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 68,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 172,
+    "kind": "function",
+    "name": "checkListener",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~checkListener",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 70,
+    "undocument": true,
+    "params": [
+      {
+        "name": "listener",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 173,
+    "kind": "function",
+    "name": "init",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~init",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 89,
+    "undocument": true,
+    "params": [],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 174,
+    "kind": "function",
+    "name": "setMaxListeners",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~setMaxListeners",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 102,
+    "undocument": true,
+    "params": [
+      {
+        "name": "n",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 175,
+    "kind": "function",
+    "name": "_getMaxListeners",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~_getMaxListeners",
+    "access": "private",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 110,
+    "undocument": true,
+    "params": [
+      {
+        "name": "that",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 176,
+    "kind": "function",
+    "name": "getMaxListeners",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~getMaxListeners",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 116,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 177,
+    "kind": "function",
+    "name": "emit",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~emit",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 120,
+    "undocument": true,
+    "params": [
+      {
+        "name": "type",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "boolean"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 178,
+    "kind": "function",
+    "name": "_addListener",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~_addListener",
+    "access": "private",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 164,
+    "undocument": true,
+    "params": [
+      {
+        "name": "target",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "type",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "listener",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "prepend",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 179,
+    "kind": "function",
+    "name": "addListener",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~addListener",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 226,
+    "undocument": true,
+    "params": [
+      {
+        "name": "type",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "listener",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 180,
+    "kind": "function",
+    "name": "prependListener",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~prependListener",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 233,
+    "undocument": true,
+    "params": [
+      {
+        "name": "type",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "listener",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 181,
+    "kind": "function",
+    "name": "onceWrapper",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~onceWrapper",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 237,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 182,
+    "kind": "function",
+    "name": "_onceWrap",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~_onceWrap",
+    "access": "private",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 247,
+    "undocument": true,
+    "params": [
+      {
+        "name": "target",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "type",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "listener",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 183,
+    "kind": "function",
+    "name": "once",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~once",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 255,
+    "undocument": true,
+    "params": [
+      {
+        "name": "type",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "listener",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 184,
+    "kind": "function",
+    "name": "prependOnceListener",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~prependOnceListener",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 262,
+    "undocument": true,
+    "params": [
+      {
+        "name": "type",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "listener",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 185,
+    "kind": "function",
+    "name": "removeListener",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~removeListener",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 270,
+    "undocument": true,
+    "params": [
+      {
+        "name": "type",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "listener",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 186,
+    "kind": "function",
+    "name": "removeAllListeners",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~removeAllListeners",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 324,
+    "undocument": true,
+    "params": [
+      {
+        "name": "type",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 187,
+    "kind": "function",
+    "name": "_listeners",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~_listeners",
+    "access": "private",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 374,
+    "undocument": true,
+    "params": [
+      {
+        "name": "target",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "type",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "unwrap",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 188,
+    "kind": "function",
+    "name": "listeners",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~listeners",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 391,
+    "undocument": true,
+    "params": [
+      {
+        "name": "type",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 189,
+    "kind": "function",
+    "name": "rawListeners",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~rawListeners",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 395,
+    "undocument": true,
+    "params": [
+      {
+        "name": "type",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 190,
+    "kind": "function",
+    "name": "listenerCount",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~listenerCount",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 399,
+    "undocument": true,
+    "params": [
+      {
+        "name": "emitter",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "type",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 191,
+    "kind": "function",
+    "name": "listenerCount",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~listenerCount",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 408,
+    "undocument": true,
+    "params": [
+      {
+        "name": "type",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "number"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 192,
+    "kind": "function",
+    "name": "eventNames",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~eventNames",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 424,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 193,
+    "kind": "function",
+    "name": "arrayClone",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~arrayClone",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 428,
+    "undocument": true,
+    "params": [
+      {
+        "name": "arr",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "n",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 194,
+    "kind": "function",
+    "name": "spliceOne",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~spliceOne",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 435,
+    "undocument": true,
+    "params": [
+      {
+        "name": "list",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "index",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 195,
+    "kind": "function",
+    "name": "unwrapListeners",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~unwrapListeners",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 441,
+    "undocument": true,
+    "params": [
+      {
+        "name": "arr",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 196,
+    "kind": "function",
+    "name": "once",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~once",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 449,
+    "undocument": true,
+    "params": [
+      {
+        "name": "emitter",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "name",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 197,
+    "kind": "function",
+    "name": "addErrorHandlerIfEventEmitter",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~addErrorHandlerIfEventEmitter",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 470,
+    "undocument": true,
+    "params": [
+      {
+        "name": "emitter",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "handler",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "flags",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 198,
+    "kind": "function",
+    "name": "eventTargetAgnosticAddListener",
+    "memberof": "lib/events/events.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/events/events.js~eventTargetAgnosticAddListener",
+    "access": "public",
+    "export": false,
+    "importPath": "kestrel.js/lib/events/events.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 476,
+    "undocument": true,
+    "params": [
+      {
+        "name": "emitter",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "name",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "listener",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "flags",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 199,
+    "kind": "file",
+    "name": "lib/input/input.js",
+    "content": "import event from '../events/events.js';\nimport Convert from '../convert.js';\n\nclass Input extends event.EventEmitter {\n    constructor(root) {\n        super();\n        \n        // Private\n        this._root = root;\n\n        // Public\n\n        // Aliases\n        this.sendSteno = this.fromSteno;\n        this.sendQwerty = this.fromQwerty;\n        this.sendKeyCode = this.fromKeyCode;\n        this.sendBinary = this.fromBinary;\n\n        this.steno = this.fromSteno;\n        this.qwerty = this.fromQwerty;\n        this.keyCode = this.fromKeyCode;\n        this.binary = this.fromBinary;\n    };\n\n    fromSteno(down, key) {\n        if (!(key in Convert.stenoToQwerty)) {\n            this._root.parser[down == true ? \"onKeyDown\" : \"onKeyUp\"].call(this._root.parser, key);\n            return false\n        };\n\n        this._root.parser[down == true ? \"onKeyDown\" : \"onKeyUp\"].call(this._root.parser, key);\n\n        return true\n    };\n\n    fromQwerty(down, key) {\n        key = key.toUpperCase(); // FIX ISSUES\n        if (!(key in Convert.qwertyToSteno)) return this.fromSteno(down, key);\n\n        var converted = Convert.qwertyToSteno[key];\n        return this.fromSteno(down, converted);\n    };\n\n    fromKeyCode(down, key) {\n        if (!(key in Convert.keyCodeToSteno)) return this.fromSteno(down, key);\n\n        var converted = Convert.keyCodeToSteno[key];\n        return this.fromSteno(down, converted);\n    };\n\n    fromBinary(down, key) {\n        if (!(key in Convert.binaryToSteno)) return this.fromSteno(down, key);\n\n        var converted = Convert.binaryToSteno[key];\n        return this.fromSteno(down, converted);\n    };\n}\n\nexport { Input };",
+    "static": true,
+    "longname": "/Users/haydengrattan/Desktop/Kestrel.js/lib/input/input.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 200,
+    "kind": "class",
+    "name": "Input",
+    "memberof": "lib/input/input.js",
+    "static": true,
+    "longname": "lib/input/input.js~Input",
+    "access": "public",
+    "export": true,
+    "importPath": "kestrel.js/lib/input/input.js",
+    "importStyle": "{Input}",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "lib/events/events.js~event.EventEmitter"
+    ]
+  },
+  {
+    "__docId__": 201,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "lib/input/input.js~Input",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/input/input.js~Input#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true
+  },
+  {
+    "__docId__": 202,
+    "kind": "member",
+    "name": "_root",
+    "memberof": "lib/input/input.js~Input",
+    "static": false,
+    "longname": "lib/input/input.js~Input#_root",
+    "access": "private",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 203,
+    "kind": "member",
+    "name": "sendSteno",
+    "memberof": "lib/input/input.js~Input",
+    "static": false,
+    "longname": "lib/input/input.js~Input#sendSteno",
+    "access": "public",
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 204,
+    "kind": "member",
+    "name": "sendQwerty",
+    "memberof": "lib/input/input.js~Input",
+    "static": false,
+    "longname": "lib/input/input.js~Input#sendQwerty",
+    "access": "public",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 205,
+    "kind": "member",
+    "name": "sendKeyCode",
+    "memberof": "lib/input/input.js~Input",
+    "static": false,
+    "longname": "lib/input/input.js~Input#sendKeyCode",
+    "access": "public",
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 206,
+    "kind": "member",
+    "name": "sendBinary",
+    "memberof": "lib/input/input.js~Input",
+    "static": false,
+    "longname": "lib/input/input.js~Input#sendBinary",
+    "access": "public",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 207,
+    "kind": "member",
+    "name": "steno",
+    "memberof": "lib/input/input.js~Input",
+    "static": false,
+    "longname": "lib/input/input.js~Input#steno",
+    "access": "public",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 208,
+    "kind": "member",
+    "name": "qwerty",
+    "memberof": "lib/input/input.js~Input",
+    "static": false,
+    "longname": "lib/input/input.js~Input#qwerty",
+    "access": "public",
+    "description": null,
+    "lineNumber": 20,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 209,
+    "kind": "member",
+    "name": "keyCode",
+    "memberof": "lib/input/input.js~Input",
+    "static": false,
+    "longname": "lib/input/input.js~Input#keyCode",
+    "access": "public",
+    "description": null,
+    "lineNumber": 21,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 210,
+    "kind": "member",
+    "name": "binary",
+    "memberof": "lib/input/input.js~Input",
+    "static": false,
+    "longname": "lib/input/input.js~Input#binary",
+    "access": "public",
+    "description": null,
+    "lineNumber": 22,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 211,
+    "kind": "method",
+    "name": "fromSteno",
+    "memberof": "lib/input/input.js~Input",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/input/input.js~Input#fromSteno",
+    "access": "public",
+    "description": null,
+    "lineNumber": 25,
+    "undocument": true,
+    "params": [
+      {
+        "name": "down",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 212,
+    "kind": "method",
+    "name": "fromQwerty",
+    "memberof": "lib/input/input.js~Input",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/input/input.js~Input#fromQwerty",
+    "access": "public",
+    "description": null,
+    "lineNumber": 36,
+    "undocument": true,
+    "params": [
+      {
+        "name": "down",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 213,
+    "kind": "method",
+    "name": "fromKeyCode",
+    "memberof": "lib/input/input.js~Input",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/input/input.js~Input#fromKeyCode",
+    "access": "public",
+    "description": null,
+    "lineNumber": 44,
+    "undocument": true,
+    "params": [
+      {
+        "name": "down",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 214,
+    "kind": "method",
+    "name": "fromBinary",
+    "memberof": "lib/input/input.js~Input",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/input/input.js~Input#fromBinary",
+    "access": "public",
+    "description": null,
+    "lineNumber": 51,
+    "undocument": true,
+    "params": [
+      {
+        "name": "down",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 215,
+    "kind": "file",
+    "name": "lib/macro/base.js",
+    "content": "const MacroBase = {\n    name: \"base\",\n\n    \"CAPS-LOCK:ON\": () => {\n        return \"Hello, world!\"\n    }\n}\n\nexport { MacroBase };",
+    "static": true,
+    "longname": "/Users/haydengrattan/Desktop/Kestrel.js/lib/macro/base.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 216,
+    "kind": "variable",
+    "name": "MacroBase",
+    "memberof": "lib/macro/base.js",
+    "static": true,
+    "longname": "lib/macro/base.js~MacroBase",
+    "access": "public",
+    "export": true,
+    "importPath": "kestrel.js/lib/macro/base.js",
+    "importStyle": "{MacroBase}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"name\": string, \"CAPS-LOCK:ON\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 217,
+    "kind": "file",
+    "name": "lib/macro/loader.js",
+    "content": "import event from '../events/events.js';\n\nclass MacroLoader extends event.EventEmitter {\n    constructor(convert, root) {\n        super()\n        \n        // Private\n        this._root = root;\n        this._macros = {};\n        this._convert = convert;\n\n        // Public\n        this.macros = [];\n\n        // Aliases\n        this.reload = this.load;\n        this.remove = this.unload;\n        this.add = this.load;\n    };\n\n    checkMarco(marcoSelector) {\n        if (marcoSelector.startsWith(\"{\") && marcoSelector.endsWith(\"}\") && `${marcoSelector.slice(1, (marcoSelector.length - 1))}` in Object.values(this._macros)) {\n            return this._macros[`${marcoSelector.slice(1, (marcoSelector.length - 1))}`];\n        };\n\n        return false;\n    };\n\n    reloadAll() {\n        if (this.macros.length < 1) {\n            this.emit(\"reloadAllFailed\");\n            this._root.emit(\"macrosReloadFailed\");\n            return false;\n        };\n\n        this.macros.forEach(macro => this.load(macro, false));\n        this._macros = this._generateMacros();\n        this.emit(\"reloadAll\", this.macros);\n        this._root.emit(\"macrosReload\");\n        return true;\n    };\n\n    load(macro, genMacros = true) {\n        if (!macro.name || typeof macro !== 'object') return false;\n\n        this.macros.push(macro);\n\n        if (genMacros == true) this._macros = this._generateMacros();\n\n        if (macro in this.macros) {\n            this.emit(\"load\", this.macros[this.macros.indexOf(macro)]);\n            this._root.emit(\"macroLoad\", this._macros[this.macros.indexOf(macro)]);\n\n            this.emit(\"reload\", this.macros[this.macros.indexOf(macro)]);\n            this._root.emit(\"macroReload\", this._macros[this.macros.indexOf(macro)]);\n\n            return macro;\n        } else {\n            this.emit(\"loadFailed\", macro);\n            this._root.emit(\"macroLoadFailed\", macro);\n\n            this.emit(\"reloadFailed\", macro);\n            this._root.emit(\"macroReloadFailed\", macro);\n\n            return false;\n        };\n    };\n\n    unload(macro) {\n        if (macro in this.macros) {\n            delete this.macros[this.macros.indexOf(macro)];\n            this._macros = this._generateMacros();\n            return true;\n        } else {\n            return false;\n        };\n    };\n\n    _generateMacros(marcos = this.macros) {\n        const mergedMacros = {};\n\n        for (let obj of marcos) {\n            for (let key in obj) {\n                if (obj.hasOwnProperty(key)) {\n                    mergedDict[key] = obj[key];\n                };\n            };\n        };\n\n        return mergedDict;\n    };\n}\n\nexport { MacroLoader };",
+    "static": true,
+    "longname": "/Users/haydengrattan/Desktop/Kestrel.js/lib/macro/loader.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 218,
+    "kind": "class",
+    "name": "MacroLoader",
+    "memberof": "lib/macro/loader.js",
+    "static": true,
+    "longname": "lib/macro/loader.js~MacroLoader",
+    "access": "public",
+    "export": true,
+    "importPath": "kestrel.js/lib/macro/loader.js",
+    "importStyle": "{MacroLoader}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "lib/events/events.js~event.EventEmitter"
+    ]
+  },
+  {
+    "__docId__": 219,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "lib/macro/loader.js~MacroLoader",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/macro/loader.js~MacroLoader#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true
+  },
+  {
+    "__docId__": 220,
+    "kind": "member",
+    "name": "_root",
+    "memberof": "lib/macro/loader.js~MacroLoader",
+    "static": false,
+    "longname": "lib/macro/loader.js~MacroLoader#_root",
+    "access": "private",
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 221,
+    "kind": "member",
+    "name": "_macros",
+    "memberof": "lib/macro/loader.js~MacroLoader",
+    "static": false,
+    "longname": "lib/macro/loader.js~MacroLoader#_macros",
+    "access": "private",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{}"
+      ]
+    }
+  },
+  {
+    "__docId__": 222,
+    "kind": "member",
+    "name": "_convert",
+    "memberof": "lib/macro/loader.js~MacroLoader",
+    "static": false,
+    "longname": "lib/macro/loader.js~MacroLoader#_convert",
+    "access": "private",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 223,
+    "kind": "member",
+    "name": "macros",
+    "memberof": "lib/macro/loader.js~MacroLoader",
+    "static": false,
+    "longname": "lib/macro/loader.js~MacroLoader#macros",
+    "access": "public",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*[]"
+      ]
+    }
+  },
+  {
+    "__docId__": 224,
+    "kind": "member",
+    "name": "reload",
+    "memberof": "lib/macro/loader.js~MacroLoader",
+    "static": false,
+    "longname": "lib/macro/loader.js~MacroLoader#reload",
+    "access": "public",
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 225,
+    "kind": "member",
+    "name": "remove",
+    "memberof": "lib/macro/loader.js~MacroLoader",
+    "static": false,
+    "longname": "lib/macro/loader.js~MacroLoader#remove",
+    "access": "public",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 226,
+    "kind": "member",
+    "name": "add",
+    "memberof": "lib/macro/loader.js~MacroLoader",
+    "static": false,
+    "longname": "lib/macro/loader.js~MacroLoader#add",
+    "access": "public",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 227,
+    "kind": "method",
+    "name": "checkMarco",
+    "memberof": "lib/macro/loader.js~MacroLoader",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/macro/loader.js~MacroLoader#checkMarco",
+    "access": "public",
+    "description": null,
+    "lineNumber": 21,
+    "undocument": true,
+    "params": [
+      {
+        "name": "marcoSelector",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 228,
+    "kind": "method",
+    "name": "reloadAll",
+    "memberof": "lib/macro/loader.js~MacroLoader",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/macro/loader.js~MacroLoader#reloadAll",
+    "access": "public",
+    "description": null,
+    "lineNumber": 29,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 230,
+    "kind": "method",
+    "name": "load",
+    "memberof": "lib/macro/loader.js~MacroLoader",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/macro/loader.js~MacroLoader#load",
+    "access": "public",
+    "description": null,
+    "lineNumber": 43,
+    "undocument": true,
+    "params": [
+      {
+        "name": "macro",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "genMacros",
+        "optional": true,
+        "types": [
+          "boolean"
+        ],
+        "defaultRaw": true,
+        "defaultValue": "true"
+      }
+    ],
+    "return": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 232,
+    "kind": "method",
+    "name": "unload",
+    "memberof": "lib/macro/loader.js~MacroLoader",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/macro/loader.js~MacroLoader#unload",
+    "access": "public",
+    "description": null,
+    "lineNumber": 69,
+    "undocument": true,
+    "params": [
+      {
+        "name": "macro",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 234,
+    "kind": "method",
+    "name": "_generateMacros",
+    "memberof": "lib/macro/loader.js~MacroLoader",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/macro/loader.js~MacroLoader#_generateMacros",
+    "access": "private",
+    "description": null,
+    "lineNumber": 79,
+    "undocument": true,
+    "params": [
+      {
+        "name": "marcos",
+        "optional": true,
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 235,
+    "kind": "file",
+    "name": "lib/output/output.js",
+    "content": "import event from '../events/events.js';\n\nclass Output extends event.EventEmitter {\n    constructor(root) {\n        super();\n\n        // Private\n        this._root = root;\n        this._chordListeners = [];\n        this._dataListeners = []; // The full string\n        this._modifyListeners = []; // will have a array of actions to do such as [ { action: 'delete', amount: 5 }, { action: 'add', text: \"hello\" } ]\n\n        // Public\n        this.data = \"\";\n        this.modifications = []; // array of  modification listeners data\n        this.chords = [];\n\n        // Aliases\n        this.chordCallback = this.onChord;\n        this.dataCallback = this.onData;\n        this.modifyCallback = this.onData;\n\n        this.sendChord = this._onChord;\n        this.sendData = this._onData;\n        this.sendModify = this._onModify;\n    };\n\n    _onChord(chord) {\n        this.chords.push(chord);\n\n        this.emit(\"chord\", chord);\n        this._root.emit(\"outputChord\", chord);\n\n        this._chordListeners.forEach(listener => listener(chord));\n    };\n\n    _onData(data) {\n        this.data = data;\n\n        this.emit(\"data\", data);\n        this._root.emit(\"outputData\", data);\n\n        this._dataListeners.forEach(listener => listener(data));\n    };\n\n    _onModify(diff) {\n        this.modifications.push(diff);\n        \n        this.emit(\"modify\", diff);\n        this._root.emit(\"outputModify\", diff);\n\n        this._modifyListeners.forEach(listener => listener(diff));\n    };\n\n    onChord(callback) {\n        this._chordListeners.push(callback);\n    };\n\n    onData(callback) {\n        this._dataListeners.push(callback);\n    };\n\n    onModify(callback) {\n        this._modifyListeners.push(callback);\n    };\n}\n\nexport { Output };",
+    "static": true,
+    "longname": "/Users/haydengrattan/Desktop/Kestrel.js/lib/output/output.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 236,
+    "kind": "class",
+    "name": "Output",
+    "memberof": "lib/output/output.js",
+    "static": true,
+    "longname": "lib/output/output.js~Output",
+    "access": "public",
+    "export": true,
+    "importPath": "kestrel.js/lib/output/output.js",
+    "importStyle": "{Output}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "lib/events/events.js~event.EventEmitter"
+    ]
+  },
+  {
+    "__docId__": 237,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "lib/output/output.js~Output",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/output/output.js~Output#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true
+  },
+  {
+    "__docId__": 238,
+    "kind": "member",
+    "name": "_root",
+    "memberof": "lib/output/output.js~Output",
+    "static": false,
+    "longname": "lib/output/output.js~Output#_root",
+    "access": "private",
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 239,
+    "kind": "member",
+    "name": "_chordListeners",
+    "memberof": "lib/output/output.js~Output",
+    "static": false,
+    "longname": "lib/output/output.js~Output#_chordListeners",
+    "access": "private",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*[]"
+      ]
+    }
+  },
+  {
+    "__docId__": 240,
+    "kind": "member",
+    "name": "_dataListeners",
+    "memberof": "lib/output/output.js~Output",
+    "static": false,
+    "longname": "lib/output/output.js~Output#_dataListeners",
+    "access": "private",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*[]"
+      ]
+    }
+  },
+  {
+    "__docId__": 241,
+    "kind": "member",
+    "name": "_modifyListeners",
+    "memberof": "lib/output/output.js~Output",
+    "static": false,
+    "longname": "lib/output/output.js~Output#_modifyListeners",
+    "access": "private",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*[]"
+      ]
+    }
+  },
+  {
+    "__docId__": 242,
+    "kind": "member",
+    "name": "data",
+    "memberof": "lib/output/output.js~Output",
+    "static": false,
+    "longname": "lib/output/output.js~Output#data",
+    "access": "public",
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 243,
+    "kind": "member",
+    "name": "modifications",
+    "memberof": "lib/output/output.js~Output",
+    "static": false,
+    "longname": "lib/output/output.js~Output#modifications",
+    "access": "public",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*[]"
+      ]
+    }
+  },
+  {
+    "__docId__": 244,
+    "kind": "member",
+    "name": "chords",
+    "memberof": "lib/output/output.js~Output",
+    "static": false,
+    "longname": "lib/output/output.js~Output#chords",
+    "access": "public",
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*[]"
+      ]
+    }
+  },
+  {
+    "__docId__": 245,
+    "kind": "member",
+    "name": "chordCallback",
+    "memberof": "lib/output/output.js~Output",
+    "static": false,
+    "longname": "lib/output/output.js~Output#chordCallback",
+    "access": "public",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 246,
+    "kind": "member",
+    "name": "dataCallback",
+    "memberof": "lib/output/output.js~Output",
+    "static": false,
+    "longname": "lib/output/output.js~Output#dataCallback",
+    "access": "public",
+    "description": null,
+    "lineNumber": 20,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 247,
+    "kind": "member",
+    "name": "modifyCallback",
+    "memberof": "lib/output/output.js~Output",
+    "static": false,
+    "longname": "lib/output/output.js~Output#modifyCallback",
+    "access": "public",
+    "description": null,
+    "lineNumber": 21,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 248,
+    "kind": "member",
+    "name": "sendChord",
+    "memberof": "lib/output/output.js~Output",
+    "static": false,
+    "longname": "lib/output/output.js~Output#sendChord",
+    "access": "public",
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 249,
+    "kind": "member",
+    "name": "sendData",
+    "memberof": "lib/output/output.js~Output",
+    "static": false,
+    "longname": "lib/output/output.js~Output#sendData",
+    "access": "public",
+    "description": null,
+    "lineNumber": 24,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 250,
+    "kind": "member",
+    "name": "sendModify",
+    "memberof": "lib/output/output.js~Output",
+    "static": false,
+    "longname": "lib/output/output.js~Output#sendModify",
+    "access": "public",
+    "description": null,
+    "lineNumber": 25,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 251,
+    "kind": "method",
+    "name": "_onChord",
+    "memberof": "lib/output/output.js~Output",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/output/output.js~Output#_onChord",
+    "access": "private",
+    "description": null,
+    "lineNumber": 28,
+    "undocument": true,
+    "params": [
+      {
+        "name": "chord",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 252,
+    "kind": "method",
+    "name": "_onData",
+    "memberof": "lib/output/output.js~Output",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/output/output.js~Output#_onData",
+    "access": "private",
+    "description": null,
+    "lineNumber": 37,
+    "undocument": true,
+    "params": [
+      {
+        "name": "data",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 254,
+    "kind": "method",
+    "name": "_onModify",
+    "memberof": "lib/output/output.js~Output",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/output/output.js~Output#_onModify",
+    "access": "private",
+    "description": null,
+    "lineNumber": 46,
+    "undocument": true,
+    "params": [
+      {
+        "name": "diff",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 255,
+    "kind": "method",
+    "name": "onChord",
+    "memberof": "lib/output/output.js~Output",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/output/output.js~Output#onChord",
+    "access": "public",
+    "description": null,
+    "lineNumber": 55,
+    "undocument": true,
+    "params": [
+      {
+        "name": "callback",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 256,
+    "kind": "method",
+    "name": "onData",
+    "memberof": "lib/output/output.js~Output",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/output/output.js~Output#onData",
+    "access": "public",
+    "description": null,
+    "lineNumber": 59,
+    "undocument": true,
+    "params": [
+      {
+        "name": "callback",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 257,
+    "kind": "method",
+    "name": "onModify",
+    "memberof": "lib/output/output.js~Output",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/output/output.js~Output#onModify",
+    "access": "public",
+    "description": null,
+    "lineNumber": 63,
+    "undocument": true,
+    "params": [
+      {
+        "name": "callback",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "kind": "index",
+    "content": "> **NOTE**\n>\n> This is just a steno engine library and it does NOT work on its own. Please use something else such as Plover or wait for my full steno engine. Huge thanks to the openstenoproject for all their amazing work!\n\n<div align=\"center\">\n  <a href=\"https://github.com/crazyh2\">\n\t <img src=\"assets/banner.png\" alt=\"Logo\" width=\"2800\" />\n  </a>\n</div>\n\n<!--<h3 align=\"center\">Kestrel.js</h3>-->\n<h4 align=\"center\">A stenography library that anyone can use and contribute to! It's only 7KB as of writing and took 4 days to complete first version. <br>Made By <a href=\"https://github.com/crazyh2/\">CrazyH2</a></h4>\n<h4 align=\"center\">Take a look at plover as this wouldn't be possible without them!<br><a href=\"http://openstenoproject.org/plover/\">Plover</a>  |  <a href=\"https://www.openstenoproject.org/ploverpad/ploverpad.html\">Ploverpad</a></h4>\n\n<h2 align=\"left\">Installation</h2>\n\n- Download src code from the repo or go to Releases tab for all the versions.\n- Install packages and dependencies.\n```sh\nnpm install\n```\n- Reference in your code and Kestrel.js will do all the steno engine stuff for you.\n\n<h2 align=\"left\">Production Bundling</h2>\n<h3>Just run the code below after installation:</h3>\n\n```sh\nnpm run build\n```\n\n<b>The code should appear in <code>/dist</code> when bundled!</b>\n\n<h2 align=\"left\">Usage</h2>\n\n<h3>NODE:</h3>\n\n```js\nconst { GlobalKeyboardListener } = require(\"node-global-key-listener\");\n\nconst { Kestrel } = require(\"../lib/engine\");\nconst Dictionary = require(\"../assets/dict.json\");\n\n(async () => {\n    const app = await Kestrel();\n\n    var gkl = new GlobalKeyboardListener();\n    gkl.addListener((e, down) => {\n        if(!e.name.includes(\"MOUSE\")) app.input.fromQwerty(e.state == 'DOWN', e.name);\n    });\n\n    await app.output.onData((data) => {\n        console.log(data);\n    });\n\n    await app.dictionaries.load(Dictionary);\n})();\n```\n\n<h3>WEB:</h3>\n\n```html\n<script type=\"module\">\n  import { Kestrel } from \"../dist/kestrel.js\";\n\n  const app = await Kestrel();\n\n  document.addEventListener(\"keydown\", (ev) => {\n    app.input.fromQwerty(true, ev.name);\n  });\n\n  document.addEventListener(\"keyup\", (ev) => {\n    app.input.fromQwerty(false, ev.name);\n  });\n\n  await app.output.onData((data) => {\n    console.log(data);\n    document.querySelector(\"#content\").innerHTML = data;\n  });\n\n  var dict = await (await fetch(\"../assets/dict.json\")).json();\n\n  await app.dictionaries.load(dict);\n</script>\n```\n\n<br>\n\n<h2 align=\"left\">Contributing</h2>\nAll contributions will be looked at and most likely accepted when I have time to look at them. Please make sure what you contribute actually applies to the project, and if not see if it would work elsewhere. For example <a href=\"http://openstenoproject.org/plover/\">Plover</a>.\n\n<h2 align=\"left\">Dictionaries</h2>\nWe support most dictionaries that will work with <a href=\"http://openstenoproject.org/plover/\">Plover</a> and other steno engines, so just import one you used to or learn one. Just make sure the file is in the format <a href=\"https://en.wikipedia.org/wiki/JSON\">JSON</a> otherwise the dictionary won't work with Kestrel.js. I personally recommend <a href=\"http://lapwing.aerick.ca\">lapwing thory</a> which you can learn online for free.\n\n<h2 align=\"left\">Making Addons</h2>\nAsk for help or look at the source code when your stuck!\n\nExample:\n```js\nclass AddonExample {\n    constructor(convert) {\n        this.isAddon = true;\n        this.convert = convert;\n    };\n\n    onLoad() {\n\n    };\n\n    onUnload() {\n\n    };\n\n    onKeyDown(key) {\n\n    };\n\n    onKeyUp(key) {\n\n    };\n\n    async onChord(chord, output, next) {\n        return next(); // Skip this addon\n    };\n};\n\nmodule.exports = { AddonExample };\n```\n\n<h2 align=\"left\">Macros</h2>\nJust ask if the code confuses you!\n\nExample:\n```js\nconst MacroExample = {\n  name: \"base\",\n\n  \"CAPS-LOCK:ON\": () => {\n    return \"Hello, world!\"\n  }\n}\n\nmodule.exports = { MacroExample };\n```\n\n<br>\n\n<h2 align=\"left\">License</h2>\nDistributed under a Custom License. See `LICENSE` for more information.\n\n<h2 align=\"left\">Credits</h2>\n<b>- Huge thanks to Openstenoproject an the steno community for allowing this project to exist.<br></b>\n<b>- Ploverpad was a huge help in parsing CTE/RTF for steno!</b>\n<b>- Main Dev: CrazyH2</b>\n\n<div align=\"center\">\n  <a href=\"https://github.com/crazyh2\">\n\t <img src=\"assets/footer.png\" alt=\"Logo\" width=\"2800\" />\n  </a>\n</div>",
+    "longname": "/Users/haydengrattan/Desktop/Kestrel.js/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"kestrel.js\",\n  \"version\": \"1.1.1\",\n  \"description\": \"A steno engine library so you can easily impliment steno into your nodejs project.\",\n  \"main\": \"lib/engine.js\",\n  \"type\": \"module\",\n  \"scripts\": {\n    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\",\n    \"build\": \"npx webpack --config webpack.config.js\",\n    \"docs\": \"npx ./node_modules/esdoc\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"https://github.com/crazyh2\"\n  },\n  \"keywords\": [\n    \"steno\",\n    \"stenography\",\n    \"engine\"\n  ],\n  \"author\": \"CrazyH2\",\n  \"license\": \"CC-BY-NC-4.0\",\n  \"dependencies\": {\n    \"node-global-key-listener\": \"0.1.1\",\n    \"webpack\": \"^5.96.1\",\n    \"webpack-cli\": \"^5.1.4\"\n  },\n  \"devDependencies\": {\n    \"esdoc-ecmascript-proposal-plugin\": \"^1.0.0\",\n    \"esdoc-importpath-plugin\": \"^1.0.2\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\"\n  }\n}\n",
+    "longname": "/Users/haydengrattan/Desktop/Kestrel.js/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

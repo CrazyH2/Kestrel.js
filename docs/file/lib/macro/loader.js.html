@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">lib/macro/loader.js | kestrel.js</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="A steno engine library so you can easily impliment steno into your nodejs project."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="kestrel.js"><meta property="twitter:description" content="A steno engine library so you can easily impliment steno into your nodejs project."></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/crazyh2"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/_docs_Kestrel.js~Kestrel.html">Kestrel</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#addon">addon</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/addon/base.js~AddonBase.html">AddonBase</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/addon/loader.js~AddonLoader.html">AddonLoader</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#dictionary">dictionary</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/dictionary/loader.js~DictLoader.html">DictLoader</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#engine">engine</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/engine/chord.js~Chord.html">Chord</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/engine/parser.js~Parser.html">Parser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/engine/word.js~Word.html">Word</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#input">input</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/input/input.js~Input.html">Input</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#macro">macro</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/macro/loader.js~MacroLoader.html">MacroLoader</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MacroBase">MacroBase</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#output">output</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/output/output.js~Output.html">Output</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">lib/macro/loader.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import event from &apos;../events/events.js&apos;;
+
+class MacroLoader extends event.EventEmitter {
+    constructor(convert, root) {
+        super()
+        
+        // Private
+        this._root = root;
+        this._macros = {};
+        this._convert = convert;
+
+        // Public
+        this.macros = [];
+
+        // Aliases
+        this.reload = this.load;
+        this.remove = this.unload;
+        this.add = this.load;
+    };
+
+    checkMarco(marcoSelector) {
+        if (marcoSelector.startsWith(&quot;{&quot;) &amp;&amp; marcoSelector.endsWith(&quot;}&quot;) &amp;&amp; `${marcoSelector.slice(1, (marcoSelector.length - 1))}` in Object.values(this._macros)) {
+            return this._macros[`${marcoSelector.slice(1, (marcoSelector.length - 1))}`];
+        };
+
+        return false;
+    };
+
+    reloadAll() {
+        if (this.macros.length &lt; 1) {
+            this.emit(&quot;reloadAllFailed&quot;);
+            this._root.emit(&quot;macrosReloadFailed&quot;);
+            return false;
+        };
+
+        this.macros.forEach(macro =&gt; this.load(macro, false));
+        this._macros = this._generateMacros();
+        this.emit(&quot;reloadAll&quot;, this.macros);
+        this._root.emit(&quot;macrosReload&quot;);
+        return true;
+    };
+
+    load(macro, genMacros = true) {
+        if (!macro.name || typeof macro !== &apos;object&apos;) return false;
+
+        this.macros.push(macro);
+
+        if (genMacros == true) this._macros = this._generateMacros();
+
+        if (macro in this.macros) {
+            this.emit(&quot;load&quot;, this.macros[this.macros.indexOf(macro)]);
+            this._root.emit(&quot;macroLoad&quot;, this._macros[this.macros.indexOf(macro)]);
+
+            this.emit(&quot;reload&quot;, this.macros[this.macros.indexOf(macro)]);
+            this._root.emit(&quot;macroReload&quot;, this._macros[this.macros.indexOf(macro)]);
+
+            return macro;
+        } else {
+            this.emit(&quot;loadFailed&quot;, macro);
+            this._root.emit(&quot;macroLoadFailed&quot;, macro);
+
+            this.emit(&quot;reloadFailed&quot;, macro);
+            this._root.emit(&quot;macroReloadFailed&quot;, macro);
+
+            return false;
+        };
+    };
+
+    unload(macro) {
+        if (macro in this.macros) {
+            delete this.macros[this.macros.indexOf(macro)];
+            this._macros = this._generateMacros();
+            return true;
+        } else {
+            return false;
+        };
+    };
+
+    _generateMacros(marcos = this.macros) {
+        const mergedMacros = {};
+
+        for (let obj of marcos) {
+            for (let key in obj) {
+                if (obj.hasOwnProperty(key)) {
+                    mergedDict[key] = obj[key];
+                };
+            };
+        };
+
+        return mergedDict;
+    };
+}
+
+export { MacroLoader };</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

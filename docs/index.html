@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl">
+  <title data-ice="title">Home | kestrel.js</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="A steno engine library so you can easily impliment steno into your nodejs project."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="kestrel.js"><meta property="twitter:description" content="A steno engine library so you can easily impliment steno into your nodejs project."></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/crazyh2"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/_docs_Kestrel.js~Kestrel.html">Kestrel</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#addon">addon</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/addon/base.js~AddonBase.html">AddonBase</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/addon/loader.js~AddonLoader.html">AddonLoader</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#dictionary">dictionary</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/dictionary/loader.js~DictLoader.html">DictLoader</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#engine">engine</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/engine/chord.js~Chord.html">Chord</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/engine/parser.js~Parser.html">Parser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/engine/word.js~Word.html">Word</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#input">input</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/input/input.js~Input.html">Input</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#macro">macro</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/macro/loader.js~MacroLoader.html">MacroLoader</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MacroBase">MacroBase</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#output">output</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/output/output.js~Output.html">Output</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><blockquote>
+<p><strong>NOTE</strong></p>
+<p>This is just a steno engine library and it does NOT work on its own. Please use something else such as Plover or wait for my full steno engine. Huge thanks to the openstenoproject for all their amazing work!</p>
+</blockquote>
+<p><div>
+  <a href="https://github.com/crazyh2">
+     <img src="assets/banner.png" width="2800">
+  </a>
+</div>
+
+</p>
+<p><!--<h3 align="center">Kestrel.js</h3>-->
+</p>
+<p></p><h4>A stenography library that anyone can use and contribute to! It&apos;s only 7KB as of writing and took 4 days to complete first version. <br>Made By <a href="https://github.com/crazyh2/">CrazyH2</a></h4>
+<h4>Take a look at plover as this wouldn&apos;t be possible without them!<br><a href="http://openstenoproject.org/plover/">Plover</a>  |  <a href="https://www.openstenoproject.org/ploverpad/ploverpad.html">Ploverpad</a></h4>
+
+<p></p>
+<p></p><h2>Installation</h2>
+
+<p></p>
+<ul>
+<li>Download src code from the repo or go to Releases tab for all the versions.</li>
+<li>Install packages and dependencies.<pre><code class="lang-sh"><code class="source-code prettyprint">npm install</code>
+</code></pre>
+</li>
+<li>Reference in your code and Kestrel.js will do all the steno engine stuff for you.</li>
+</ul>
+<p></p><h2>Production Bundling</h2>
+<h3>Just run the code below after installation:</h3>
+
+<code>sh
+npm run build</code>
+
+&lt;b&gt;The code should appear in <code>/dist</code> when bundled!&lt;/b&gt;
+
+<h2>Usage</h2>
+
+<p></p>
+<p></p><h3>NODE:</h3>
+
+<p></p>
+<pre><code class="lang-js"><code class="source-code prettyprint">const { GlobalKeyboardListener } = require(&quot;node-global-key-listener&quot;);
+
+const { Kestrel } = require(&quot;../lib/engine&quot;);
+const Dictionary = require(&quot;../assets/dict.json&quot;);
+
+(async () =&gt; {
+    const app = await Kestrel();
+
+    var gkl = new GlobalKeyboardListener();
+    gkl.addListener((e, down) =&gt; {
+        if(!e.name.includes(&quot;MOUSE&quot;)) app.input.fromQwerty(e.state == &apos;DOWN&apos;, e.name);
+    });
+
+    await app.output.onData((data) =&gt; {
+        console.log(data);
+    });
+
+    await app.dictionaries.load(Dictionary);
+})();</code>
+</code></pre>
+<p></p><h3>WEB:</h3>
+
+<p></p>
+<pre><code class="lang-html"><code class="source-code prettyprint">&lt;script type=&quot;module&quot;&gt;
+  import { Kestrel } from &quot;../dist/kestrel.js&quot;;
+
+  const app = await Kestrel();
+
+  document.addEventListener(&quot;keydown&quot;, (ev) =&gt; {
+    app.input.fromQwerty(true, ev.name);
+  });
+
+  document.addEventListener(&quot;keyup&quot;, (ev) =&gt; {
+    app.input.fromQwerty(false, ev.name);
+  });
+
+  await app.output.onData((data) =&gt; {
+    console.log(data);
+    document.querySelector(&quot;#content&quot;).innerHTML = data;
+  });
+
+  var dict = await (await fetch(&quot;../assets/dict.json&quot;)).json();
+
+  await app.dictionaries.load(dict);
+&lt;/script&gt;</code>
+</code></pre>
+<p><br></p>
+<p></p><h2>Contributing</h2>
+All contributions will be looked at and most likely accepted when I have time to look at them. Please make sure what you contribute actually applies to the project, and if not see if it would work elsewhere. For example <a href="http://openstenoproject.org/plover/">Plover</a>.<p></p>
+<p></p><h2>Dictionaries</h2>
+We support most dictionaries that will work with <a href="http://openstenoproject.org/plover/">Plover</a> and other steno engines, so just import one you used to or learn one. Just make sure the file is in the format <a href="https://en.wikipedia.org/wiki/JSON">JSON</a> otherwise the dictionary won&apos;t work with Kestrel.js. I personally recommend <a href="http://lapwing.aerick.ca">lapwing thory</a> which you can learn online for free.<p></p>
+<p></p><h2>Making Addons</h2>
+Ask for help or look at the source code when your stuck!<p></p>
+<p>Example:</p>
+<pre><code class="lang-js"><code class="source-code prettyprint">class AddonExample {
+    constructor(convert) {
+        this.isAddon = true;
+        this.convert = convert;
+    };
+
+    onLoad() {
+
+    };
+
+    onUnload() {
+
+    };
+
+    onKeyDown(key) {
+
+    };
+
+    onKeyUp(key) {
+
+    };
+
+    async onChord(chord, output, next) {
+        return next(); // Skip this addon
+    };
+};
+
+module.exports = { AddonExample };</code>
+</code></pre>
+<p></p><h2>Macros</h2>
+Just ask if the code confuses you!<p></p>
+<p>Example:</p>
+<pre><code class="lang-js"><code class="source-code prettyprint">const MacroExample = {
+  name: &quot;base&quot;,
+
+  &quot;CAPS-LOCK:ON&quot;: () =&gt; {
+    return &quot;Hello, world!&quot;
+  }
+}
+
+module.exports = { MacroExample };</code>
+</code></pre>
+<p><br></p>
+<p></p><h2>License</h2>
+Distributed under a Custom License. See <code>LICENSE</code> for more information.<p></p>
+<p></p><h2>Credits</h2>
+&lt;b&gt;- Huge thanks to Openstenoproject an the steno community for allowing this project to exist.<br>&lt;/b&gt;
+&lt;b&gt;- Ploverpad was a huge help in parsing CTE/RTF for steno!&lt;/b&gt;
+&lt;b&gt;- Main Dev: CrazyH2&lt;/b&gt;<p></p>
+<p><div>
+  <a href="https://github.com/crazyh2">
+     <img src="assets/footer.png" width="2800">
+  </a>
+</div></p>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
