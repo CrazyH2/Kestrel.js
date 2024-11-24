@@ -13,7 +13,7 @@
 <h4 align="center">Take a look at plover as this wouldn't be possible without them!<br><a href="http://openstenoproject.org/plover/">Plover</a>  |  <a href="https://www.openstenoproject.org/ploverpad/ploverpad.html">Ploverpad</a></h4>
 
 <h2 align="left">Docs</h2>
-<a href="">Go to the auto generated docs.. Ask if you're confused as the docs are very basic!</a>
+<a href="https://crazyh2.github.io/Kestrel.js/">Go to the auto generated docs.. Ask if you're confused as the docs are very basic!</a>
 
 <h2 align="left">Installation</h2>
 
