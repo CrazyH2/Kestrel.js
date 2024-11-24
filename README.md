@@ -1,9 +1,3 @@
-<!--<div align="center">
-  <a href="https://github.com/crazyh2">
-	 <img src="assets/logo.png" alt="Logo" width="200" height="200" />
-  </a>
-</div>-->
-
 > **NOTE**
 >
 > This is just a steno engine library and it does NOT work on its own. Please use something else such as Plover or wait for my full steno engine. Huge thanks to the openstenoproject for all their amazing work!
